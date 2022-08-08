@@ -1,0 +1,14 @@
+\documentclass[12pt]{standalone}
+\usepackage{amsmath,amssymb,tikz-cd,tikz,braids}
+
+\begin{document}
+\begin{tikzpicture}
+    \draw (0,0) -- (1,2);
+    \draw (1,2) -- (4,3);
+    \draw (0,0) -- (3,1);
+    \draw (3,1) -- (4,3);
+    \node[below] at (3,1) {$\mathbf{v}_1$};
+    \node[above] at (1,2) {$\mathbf{v}_2$};
+    \node[above,right] at (4,3) {$\mathbf{v}_1 + \mathbf{v}_2$};
+\end{tikzpicture}
+\end{document}
