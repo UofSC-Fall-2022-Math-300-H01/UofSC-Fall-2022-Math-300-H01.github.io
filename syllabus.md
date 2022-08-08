@@ -54,17 +54,18 @@ nav_order: 5
 
 ## Full Course Description 
 
-Figure out all values of $x,y,z$ that solve the equations
- $$ 
-    5x - 2y + z = 1 \\
-    -x + y - 3z = 0 \\
-    2x - y + z = -1 
- $$
-The most direct attack would perhaps be to repeatedly substitute and simplify to reach only a single variable equation. Are there easier ways? More efficient ways? What if we had 256 equations and 128 variables? 
+Logical verification of a statement is a skill broadly employed, from Plato to Alexa. It is also the central framework of communication in mathematics. In this course, we train this skill in three distinct but complementary ways:
+- Oral and written communication in the natural language of mathematical ideas and proofs. 
+- Formal deduction in symbolic logic. 
+- Interactive theorem proving in the proof assistant Lean.
 
-In this class, we study the structure of linear equations from both very concrete and mildly abstract perspectives. We will develop tools that allow us to both gain a conceptual understanding of systems of linear equations and underpin robust computational tools. 
+Using this language, we explore the fundamental mathematical concepts of 
+- sets
+- functions 
+- relations
+- the natural numbers and induction. 
 
-Our pen, paper, and mental work will be supplemented with a working knowledge of [Sage](https://www.sagemath.org/). 
+Finally, with our new skills, we tackle a more advanced mathematical topic. 
  
 ## Prerequisites 
 
@@ -72,25 +73,21 @@ Our pen, paper, and mental work will be supplemented with a working knowledge of
 
 ## Learning Outcomes 
 
-After successful completion of this course, you will be able to: 
+After successful completion of this course, you will be able to:
 
-- Determine the complete solution to $Ax = b$
-- Relate linear transformations, matrices, and change of basis
-- Recognize linearly dependent and independent collections of vectors
-- Compute bases and dimensions of vector spaces
-- Orthogonalize vectors using Gram-Schmidt
-- Know and use the properties of determinants
-- Compute eigenvalues and eigenvectors
-- Appreciate the ubiquity of linear algebra across science
+- Write clear, correct, and readable mathematical proofs.
+- Achieve facility with symbolic logic and formal deduction.
+- Use an interactive proof assistant.  
+- Appreciate new mathematics ideas. 
 
 ## Course Materials 
 
-The main resources for materials are the [course website](https://544.f21.matthewrobertballard.com) and the [Microsoft Team](https://teams.microsoft.com/l/channel/19%3aJgLzdLZpFCbmrJptHxrA2E7bvjwXsxJFPmFdJmn1-CI1%40thread.tacv2/General?groupId=5ff176b0-5dbd-44cb-a436-ec0c668e897e&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc) for the course. 
+The main resources for materials are the [course website]({{ site.url }}) and the [Microsoft Team]({{ site.teams_url }}) for the course. 
 
-Some supplemental (and optional) resources:
-- K. Kuttler. [A first course in linear algebra](https://www.oercommons.org/courses/first-course-linear-algebra/view) (Open Access)
-- J. Hefferon. [Linear algebra](https://joshua.smcvt.edu/linearalgebra/) (Open Access)
-- G. Strang. [Introduction to linear algebra](http://math.mit.edu/~gs/linearalgebra/) 
+Some supplemental resources:
+- C. Newstead. [An infinite descent into pure mathematics](https://infinitedescent.xyz) 
+- J. Avigad, L. de Moura, S. Kong, and S. Ullrich. [Theorem proving in Lean](https://leanprover.github.io/theorem_proving_in_lean4/)
+- A. Stefanowicz. [Proofs and Mathematical Reasoning](https://www.birmingham.ac.uk/Documents/college-eps/college/stem/Student-Summer-Education-Internships/Proof-and-Reasoning.pdf)
 
 All course materials comply with copyright/fair use policies. 
 
@@ -105,7 +102,7 @@ It is expected that much of this material will be unfamiliar to you. (If not, mo
 Class time will be spent working in small groups and presenting solutions to problems. It is expected you will have consumed the relevant material ahead of each course. It is not expected you will be comfortable with the material. Class time is for learning through doing and working through your 
 misunderstandings. 
 
-Each class will end with a short quiz to diagnose any problems. 
+There will be weekly quizzes to diagnose any problems. 
 
 At the end of the class, a project will be due in place of a final exam.  
 
@@ -131,12 +128,9 @@ To participate in learning activities and complete assignments, you will need:
 
 - If you plan to submit handwritten assignments, a scanning device such as a smartphone with the Microsoft Office Lens app.  
 
-- The main hub for this course is the Microsoft Teams team [COTEAM-BALLARMR-MATH-544-H01-FALL-2021](https://teams.microsoft.com/l/channel/19%3aJgLzdLZpFCbmrJptHxrA2E7bvjwXsxJFPmFdJmn1-CI1%40thread.tacv2/General?groupId=5ff176b0-5dbd-44cb-a436-ec0c668e897e&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.   
+- The main hub for this course is the Microsoft Teams team [COTEAM-BALLARMR-MATH-300-H01-FALL-2022]({{ site.teams_url }}) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.   
 
-- We will be using a computer algebra system called [Sage](https://www.sagemath.org/) to aid our learning. It blows your graphing calculator out of the water and is ideally suited to STEM work. Built as a super-set of the popular programming language [Python](https://www.python.org/), Sage skills will translate into Python skills. There are three main ways to access Sage: 
-    - [SageMathCell](https://sagecell.sagemath.org/) is ideal for a computation involving a few lines. 
-    - [CoCalc](https://www.cocalc.com/) provides a free plan for more complicted porgrams. 
-    - [A local installation](http://doc.sagemath.org/html/en/installation/binary.html) will never be required of anyone. But, it might be valuable for a power-user. 
+- We will be using a interactive theorem prover called [Lean](https://github.com/leanprover/lean4) as part of our learning. 
  
 ## Minimal Technical Skills Needed  
 
@@ -170,7 +164,7 @@ All students are expected to regularly present solutions to in-class work group 
 
 ## Project 
 
-A list of project topics will be released on October 1. These can be done in groups of 1-4 of your own choosing. Projects are due by December 9 at 9:00 am (EST). 
+A list of project topics will be released on October 3. These can be done in groups of 1-4 of your own choosing. Projects are due by December 9 at 9:00 am (EST). 
 
 ## Evaluation and Grading Scale 
 
@@ -313,7 +307,7 @@ Group work should be performed in safe manner. Remote work will certainly form a
 
 Professionalism will be expected at all times, but most especially with your interactions online and in person. Because the university classroom is a place designed for the free exchange of ideas, we must show respect for one another in all circumstances. We will show respect for one another by exhibiting patience and courtesy in our exchanges. Appropriate language and restraint from verbal attacks upon those whose perspectives differ from your own is a minimum requirement. Courtesy and kindness is the norm for those who participate in the class. 
 
-Mistakes, in particular during the running phase, are expected and natural. Mistakes are how learning happens. All students should recognize and respect the bravery of a student presenting a proof or solution. If you ever feel uncomfortable beyond the intellectual challenge of the course, please contact me.  
+Mistakes are expected and natural. Mistakes are how learning happens. All students should recognize and respect the bravery of a student presenting a proof or solution. If you ever feel uncomfortable beyond the intellectual challenge of the course, please contact me.  
 
 Teams is a way for you to share your ideas and learning with your colleagues in this class. We do this as colleagues in learning, and the online space is meant to be a safe and respectful environment for us to conduct these discussions. 
 
@@ -369,71 +363,88 @@ I am expected to facilitate learning, answer questions appropriately, be fair an
 
 I will cite and/or reference any materials that I use in this course that I do not create. 
 
-Anything that appears on this website is copyright &copy; 2021 Matthew Ballard and is distributed by an <a href="https://github.com/UofSC-Fall-2021-Math-544-H01-UofSC-Fall-2021-Math-544-H01.github.io/tree/master/LICENSE.txt\">MIT license.
+Anything that appears on this website is copyright &copy; 2022 Matthew Ballard and is distributed by an <a href="https://github.com/{{ site.github_repo }}.github.io/tree/master/LICENSE.txt">MIT license</a>.
 
-Course materials that do not appear on this website are copyright &copy; 2021 Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion. 
+Course materials that do not appear on this website are copyright &copy; 2022 Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion without express permission.
 
 # Tentative Schedule 
 
-This is the (ambitious) plan for the semester. But it is only a plan. The successful progression of each student is the most important guide to through the material. As such, you should expect revisions as we go. 
+This is the plan for the semester. But it is only a plan. The successful progression of each student is the most important guide to through the material. As such, you should expect revisions as we go. 
 
 ## Week 1
 - 8/19 welcome and orientation
 
 ## Week 2
-- 8/24 addition and multiplication of matrices and vectors
-- 8/26 solving linear systems: row reduction 
+- 8/22 a logical puzzle and a video game
+- 8/24 conjuction, disjunction, and implication
+- 8/26 false and proof by contradiction
 
 ## Week 3
-- 8/31 row echelon form and LU decompositions  
-- 9/2 geometry and solvability of linear systems 
+- 8/29 introduction to Lean
+- 8/31 propositional logic in Lean
+- 9/2 propositional logic in Lean 2
 
 ## Week 4
-- 9/7 ranges and null spaces of matrices - implicit and parametric representations
-- 9/9 linear dependence and spans of collections of vectors - dimensions and bases
+- 9/5 reductio ad absurdum
+- 9/7 truth and falsity
+- 9/9 the universal quantifier
 
 ## Week 5
-- 9/14 row rank, column rank  
-- 9/16 invertibility 
+- 9/12 the existential quantfier
+- 9/14 equality 
+- 9/16 semantics of first order logic
 
 ## Week 6
-- 9/21 vector spaces
-- 9/23 subspaces
+- 9/19 predicates in Lean
+- 9/21 quantifiers in Lean 
+- 9/23 quantifiers in Lean 2
 
 ## Week 7
-- 9/28 bases again
-- 9/30 linear transformations 
+- 9/26 sets 
+- 9/28 operations on sets
+- 9/30 sets in Lean
 
 ## Week 8
-- 10/5 kernels and images
+- 10/3 functions 
+- 10/5 injections, surjections and bijections
+- 10/7 functions in Lean
 
 ## Week 9
-- 10/12 isomorphisms 
-- 10/14 determinants: the idea
+- 10/10 relations
+- 10/12 equivalence relation and partials orders
+- 10/14 fall break. 
 
 ## Week 10
-- 10/19 determinants: computations
-- 10/21 the complex number system
+- 10/17 relations in Lean 
+- 10/19 Peano's axioms
+- 10/21 weak induction
 
 ## Week 11
-- 10/26 eigenvalues and eigenvectors 1
-- 10/28 eigenvalues and eigenvectors 2
+- 10/24 strong induction 
+- 10/26 the natural numbers in Lean
+- 10/28 induction in Lean
 
 ## Week 12
-- 11/2 symmetric matrices
-- 11/4 positive definite matrices 
+- 10/31 induction in Lean 2
+- 11/2 groups and multiplication tables
+- 11/4 the integers
 
 ## Week 13
-- 11/9 diagonalizability
-- 11/11 diagonalizability 2 
+- 11/7 cyclic groups
+- 11/9 symmetric/permutation groups
+- 11/11 cycles and cycle notations 
 
 ## Week 14
-- 11/16 orthogonality and projections
-- 11/18 least squares approximations
+- 11/14 abelian groups
+- 11/16 dihedral groups
+- 11/18 permutation representation of dihedrals groups
 
 ## Week 15
-- 11/23 gram-schmidt and QR factorization
+- 11/21 presentations of dihedral groups
+- 11/23 thanksgiving break. 
+- 11/25 thanksgiving break.
 
 ## Week 16 
-- 11/30 singular value decomposition
-- 12/2 selected applications 
+- 11/28 monoids and free groups
+- 11/30 more on free groups 
+- 12/2 the universal property of free groups

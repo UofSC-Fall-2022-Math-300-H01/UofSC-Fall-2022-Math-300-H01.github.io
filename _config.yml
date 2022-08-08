@@ -30,6 +30,9 @@ office_hours: TBD
 bulletin_desc: Rigor of mathematical thinking and proof writing via logic, sets, and functions. Intended to bridge the gap between lower-level (computational-based) and upper-level (proof-based) mathematics courses.
 prereqs: C or better in MATH 142, or consent of the Undergraduate Director
 
+teams_url:
+github_org: UofSC-Fall-2022-Math-300-H01
+
 # Theme settings
 # remote_theme: pmarsceill/just-the-docs@v0.3.3
 # theme: "just-the-docs"
