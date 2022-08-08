@@ -46,4 +46,4 @@ For more information, see the [Syllabus]({% link syllabus.md %}).
 ## Me
 
 If you are interested in a bit about who I am and what I do, check out the 
-[staff tab]({% link staff.md %}) or visit [my website](https://www.matthewrobertballard.com).
+[me tab]({% link staff.md %}) or visit [my website](https://www.matthewrobertballard.com).
