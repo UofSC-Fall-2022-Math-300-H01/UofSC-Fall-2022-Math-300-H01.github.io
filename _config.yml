@@ -30,8 +30,9 @@ office_hours: TBD
 bulletin_desc: Rigor of mathematical thinking and proof writing via logic, sets, and functions. Intended to bridge the gap between lower-level (computational-based) and upper-level (proof-based) mathematics courses.
 prereqs: C or better in MATH 142, or consent of the Undergraduate Director
 
-teams_url:
+teams_url: https://teams.microsoft.com/l/team/19%3aNuiMUz_x3xwZIvFUwug0QNs7WmIfCCqhMWTwjTW1Yl01%40thread.tacv2/conversations?groupId=c7722f4d-801d-4fe6-83ad-1ef47c152f04&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc
 github_org: UofSC-Fall-2022-Math-300-H01
+github_classroom: https://classroom.github.com/classrooms/110835743-intro-to-proofs
 
 # Theme settings
 # remote_theme: pmarsceill/just-the-docs@v0.3.3
@@ -44,7 +45,11 @@ aux_links:
   Matthew Ballard:
     - 'https://www.matthewrobertballard.com'
   Microsoft Teams:
-    - ''
+    - 'https://teams.microsoft.com/l/team/19%3aNuiMUz_x3xwZIvFUwug0QNs7WmIfCCqhMWTwjTW1Yl01%40thread.tacv2/conversations?groupId=c7722f4d-801d-4fe6-83ad-1ef47c152f04&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc'
+  Github:
+    - 'https://github.com/UofSC-Fall-2022-Math-300-H01'
+  Github Classroom:
+    - 'https://classroom.github.com/classrooms/110835743-intro-to-proofs'
 footer_content: '<a href="https://300.f22.matthewrobertballard.com/about_this_webpage/">About this webpage.</a> Copyright &copy; 2022 Matthew Ballard. Distributed with an <a href="https://github.com/UofSC-Fall-2022-Math-300-H01.github.io/tree/master/LICENSE.txt\">MIT license.</a> '
 
 # Collections for website data
