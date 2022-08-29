@@ -24,14 +24,14 @@
     "relUrl": "/homework/01/"
   },"4": {
     "doc": "Homework 2",
-    "title": "Homework 2 - TBA",
-    "content": "Due 2022-09-05. You can find and submit the assignment on our Github Classroom. ",
-    "url": "https://300.f22.matthewrobertballard.com/homework/02/#homework-2---tba",
-    "relUrl": "/homework/02/#homework-2---tba"
+    "title": "Homework 2 - Negation, proof by contradiction, and truth",
+    "content": "Due 2022-09-06. You can find and submit the assignment on our Github Classroom. ",
+    "url": "https://300.f22.matthewrobertballard.com/homework/02/#homework-2---negation-proof-by-contradiction-and-truth",
+    "relUrl": "/homework/02/#homework-2---negation-proof-by-contradiction-and-truth"
   },"5": {
     "doc": "Homework 2",
     "title": "Homework 2",
-    "content": "WORK IN PROGRESS . ",
+    "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/homework/02/",
     "relUrl": "/homework/02/"
   },"6": {
@@ -55,7 +55,7 @@
   },"9": {
     "doc": "Announcements",
     "title": "Week 2 Announcement",
-    "content": "Aug 26 &middot; 0 min read We are still virtual through Microsoft Teams this week. Take a look at . | the schedule for this week | and the homework for this week. | . ",
+    "content": "Aug 26 &middot; 0 min read We are still virtual through Microsoft Teams this week. Take a look at . | the schedule for this week | and the homework for this week. | . The due date for homework 2 has been pushed back to Tuesday September 6 due to Labor Day. Note: your files in GitHub classroom will not update to reflect this. ",
     "url": "https://300.f22.matthewrobertballard.com/announcements/",
     "relUrl": "/announcements/"
   },"10": {
@@ -144,8 +144,8 @@
     "relUrl": "/#hnrs--transition-to-advanced-mathematics"
   },"24": {
     "doc": "Intro to Proofs",
-    "title": "Week 1 Announcement",
-    "content": "Aug 19 &middot; 0 min read Welcome to Transition to Advanced Mathematics! . To be prepared for the first class, make sure you . | read the syllabus | check homework 0 | reach out with any questions. | . Due to delays in the renovation of LeConte College, class meetings will be virtual through Microsoft Teams until (at least) 2022.09.07. Announcements . ",
+    "title": "Week 2 Announcement",
+    "content": "Aug 26 &middot; 0 min read We are still virtual through Microsoft Teams this week. Take a look at . | the schedule for this week | and the homework for this week. | . The due date for homework 2 has been pushed back to Tuesday September 6 due to Labor Day. Note: your files in GitHub classroom will not update to reflect this. Announcements . ",
     "url": "https://300.f22.matthewrobertballard.com/",
     "relUrl": "/"
   },"25": {
@@ -187,7 +187,7 @@
   },"31": {
     "doc": "Homework",
     "title": "Homework",
-    "content": ". | Homework 2. Due Date: September 5 . | Homework 1. Due Date: August 26 . | Homework 0. Due Date: August 22 . | . ",
+    "content": ". | Homework 2. Due Date: September 6 . | Homework 1. Due Date: August 26 . | Homework 0. Due Date: August 22 . | . ",
     "url": "https://300.f22.matthewrobertballard.com/homework/",
     "relUrl": "/homework/"
   },"32": {
@@ -313,7 +313,7 @@
   },"52": {
     "doc": "Syllabus",
     "title": "Office Hours",
-    "content": "TBD . ",
+    "content": "Mondays 1-4 or by appointment . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#office-hours",
     "relUrl": "/syllabus/#office-hours"
   },"53": {
