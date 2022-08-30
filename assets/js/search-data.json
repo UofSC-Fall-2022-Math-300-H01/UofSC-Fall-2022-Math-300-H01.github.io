@@ -78,64 +78,64 @@
     "relUrl": "/calendar/#welcome-and-orientation"
   },"13": {
     "doc": "Schedule",
-    "title": "First order logic",
+    "title": "Propositional logic",
     "content": "Aug 22 Some puzzles No pre-reading HW 0 due Aug 24 Propositions and proof Pre-reading Aug 26 And, or, implies Pre-reading Aug 29 Not Pre-reading HW 1 due Aug 31 Reductio ad absurdum Pre-reading Sep 2 Intepretations and truth tables Pre-reading ",
-    "url": "https://300.f22.matthewrobertballard.com/calendar/#first-order-logic",
-    "relUrl": "/calendar/#first-order-logic"
+    "url": "https://300.f22.matthewrobertballard.com/calendar/#propositional-logic",
+    "relUrl": "/calendar/#propositional-logic"
   },"14": {
     "doc": "And, or, implies",
     "title": "Conjunction",
     "content": "One basic rhetorical device is a take a bunch of statements and group them together with an and. The murderer was cousin Mr. Plum and the weapon was the candlestick and the murder occured in the foyer. The corresponding connective in logic has the fancy name of conjunction is denoted by $\\land$. So if we have expressions $C$ and $D$, then $C \\land D$ is another valid expression. Now let’s think about what we can deduce assuming we know $C$ and $D$. It may seem silly but if we know $C \\land D$ then we know $C$. So we have the following elimination rule for deduction . The notation we use for this move is $\\land_{E_L}$. Similarly, we have the right-sided analog. Then we have a introduction rule that mirrors: if we know that $C$ is true and $D$ is true, then we know that $C$ and $D$ is true. Note that at this level we know very little. For example, $A \\land B \\land C$ is ambigious. It is either \\((A \\land B) \\land C\\) or \\(A \\land (B \\land C)\\) But these are logically equivalent, meaning we can prove one from the other and vice-versa. Below we have \\((A \\land B) \\land C \\vdash A \\land (B \\land C)\\) . Can you give a proof for \\(A \\land (B \\land C) \\vdash (A \\land B) \\land C ~?\\) . ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/connectives/#conjunction",
-    "relUrl": "/notes/first_order_logic/connectives/#conjunction"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/connectives/#conjunction",
+    "relUrl": "/notes/propositional_logic/connectives/#conjunction"
   },"15": {
     "doc": "And, or, implies",
     "title": "Disjunction",
     "content": "Another common rhetorical pattern is an argument by cases. Often the cases are exhaustive, like “it is sunny or it is not sunny”. Our introduction rules are pretty straightforward. The elimination rule is a bit more subtle. If we want to reach our goal $C$ and we know that $A$ or $B$ is true, then we need to justify $C$ in two separate cases. One case for when $A$ is true and one case for when $B$ is true. This means that elimination needs to take in a proof $A \\vdash C$ and $B \\vdash C$. Note the lines above $A$ and $B$. This an example of hypothetical reasoning. We have assumed that $A$ is true and provided some argument to derive $C$. Similarly, we have assumed that $B$ is true and argued to $C$. Given both, then know that $A \\lor B \\vdash C$. The superscipts ${}^1$ indicate where we introduce additional assumptions and where we cancel. The numbering helps up keep track of any hypotheses introduced. ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/connectives/#disjunction",
-    "relUrl": "/notes/first_order_logic/connectives/#disjunction"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/connectives/#disjunction",
+    "relUrl": "/notes/propositional_logic/connectives/#disjunction"
   },"16": {
     "doc": "And, or, implies",
     "title": "Implication",
     "content": "Implication is basic step in a (natural language) logical argument. If we know that whenever $X$ is true, then so is $Y$. Then once we know that $X$ is true we get that $Y$ is also. We have a connective symbol $\\to$ for implication. Via our interpretation of proofs, one would likely also think of $X \\vdash Y$ as type of implication. The introduction and elimination rules make this connection clearer. First for elimination, we need to know $X \\to Y$ and $X$ to conclude $Y$. The introduction rule is . ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/connectives/#implication",
-    "relUrl": "/notes/first_order_logic/connectives/#implication"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/connectives/#implication",
+    "relUrl": "/notes/propositional_logic/connectives/#implication"
   },"17": {
     "doc": "And, or, implies",
     "title": "Bi-implication",
     "content": "Another connective is bi-implication, or commonly called iff for if and only if. It is denoted $\\leftrightarrow$. It has two elimination rules depending on whether we know $X$ or $Y$. If we have a proofs $X \\vdash Y$ and $Y \\vdash X$ then we can conclude $X \\leftrightarrow Y$. Let’s do an example proof to see how these rules interact. Example. Let’s show that \\((A \\to B) \\land (B \\to C) \\vdash A \\to C\\) So if $A$ implies and $B$ implies $C$, then $A$ implies $C$ if we intrepret it using words. Proof. (Expand to view) To prove $A \\to C$, we want introduce a $\\to$. This introduce says we can conclude $A \\to C$ if we can establish $A \\vdash C$. Thus, we can reduce to proving $$ (A \\to B) \\land (B \\to C), A \\vdash C $$ With $A$ and $A \\to B$, we can eliminate to $B$. Then with $B$ and $B \\to C$, we can eliminate to $C$. Below is a full proof. &#9632; . Here is another example. Example. Let’s establish \\(((A \\lor B) \\to C) \\to ((A \\to C) \\land (B \\to C))\\) . Proof. (Expand to view) Recall that $$ ((A \\lor B) \\to C) \\to ((A \\to C) \\land (B \\to C)) $$ is shorthand for $$ \\vdash ((A \\lor B) \\to C) \\to ((A \\to C) \\land (B \\to C)) $$ In other words, we want to proof the formula without assumptions. We \"backwards\" similarly to the last example. To establish a goal of the form $X \\to Y$, we need $X \\vdash Y$. So it suffices to show $$ ((A \\lor B) \\to C) \\vdash ((A \\to C) \\land (B \\to C)) $$ Now to establish a goal with $\\land$ we want to prove both sides of the $\\land$. So we need two proofs $$ (A \\lor B) \\to C \\vdash A \\to C \\\\ (A \\lor B) \\to C \\vdash B \\to C $$ Again we can reverse the introduction rule for $\\to$ to reduce to $$ (A \\lor B) \\to C, A \\vdash C \\\\ (A \\lor B) \\to C, B \\vdash C $$ We can use the introduction rules for $\\lor$ to produce $A \\lor B$ from either $A$ or $B$. Putting it all together we have &#9632; . ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/connectives/#bi-implication",
-    "relUrl": "/notes/first_order_logic/connectives/#bi-implication"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/connectives/#bi-implication",
+    "relUrl": "/notes/propositional_logic/connectives/#bi-implication"
   },"18": {
     "doc": "And, or, implies",
     "title": "Some conventions",
     "content": "Writing out lots of $( \\ )$ is tedious after awhile. We therefore establish some conventions on how to read a formula without paretheses. First, all of $\\to, \\land,$ and $\\lor$ associate right to left. This means that \\(A \\lor B \\lor C := A \\lor (B \\lor C)\\) . Then $\\to$ binds more weakly that both $\\lor$ and $\\land$. For example \\(A \\lor B \\to C \\land D := (A \\lor B) \\to (C \\land D)\\) . It is important to remember that, in general, the placement of parentheses makes a difference! . ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/connectives/#some-conventions",
-    "relUrl": "/notes/first_order_logic/connectives/#some-conventions"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/connectives/#some-conventions",
+    "relUrl": "/notes/propositional_logic/connectives/#some-conventions"
   },"19": {
     "doc": "And, or, implies",
     "title": "And, or, implies",
     "content": "Last time, we saw the beginnings of a formal system to represent logical reasoning. Here we introduce some operations on a collection of propositions to build expressions. You can think of the propositions as the atoms of our system and the connectives we introduce as the bonds. In addition, for each connective, we give a introductiona and elimination rule in deduction. ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/connectives/",
-    "relUrl": "/notes/first_order_logic/connectives/"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/connectives/",
+    "relUrl": "/notes/propositional_logic/connectives/"
   },"20": {
     "doc": "Propositions and proofs",
     "title": "Propositions",
     "content": "We start with the basic building blocks of first-order logic: propositions. The collection of propositions is simply a collection of symbols. Common ones are based on the Roman or Greek alphabets, e.g. \\(A, B, C ,\\ldots \\\\ \\alpha, \\beta, \\gamma, \\ldots\\) But we could just as easily using emoji for our symbols . 😉, 🤯, 🌭, . Right now, they have no meaning attached. Given a set of propositions, we next need rules to combine them into expressions. ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/deduction/#propositions",
-    "relUrl": "/notes/first_order_logic/deduction/#propositions"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/deduction/#propositions",
+    "relUrl": "/notes/propositional_logic/deduction/#propositions"
   },"21": {
     "doc": "Propositions and proofs",
     "title": "Deduction",
     "content": "The operations we use to combine expressions will reflect oft-occuring structures in human reason. But, we also need to model the common steps in deduction. Here there are two separate roles: assumptions we are given and goals we want to establish (if we can). In the written (or natural) language, you might see. Example. If $n$ and $m$ are even integers, then so is $n-m$. Recall here that the integers are \\(\\mathbb{Z} = \\lbrace \\ldots, -2,-1,0,1,2, \\ldots \\rbrace\\) . This could also be written as . Example. Let $n$ and $m$ be even integers. The integer $n-m$ is also an even integer. While the latter example is not written an explicit if-then the content is the same. Our set of assumptions is $n$ and $m$ are even integers while our goal is $n-m$ is an even integer. Let’s write down a proof of these statements. We can represent as a table. | Assumptions | Goal | . | $n, m$ even | $n-m$ is even | . Mathematics is well-known for compact (and difficult) notation. In a proof, it is often valuable to unfold the definitions into the statement they represent. We perform this operation on the assumptions. | Assumptions | Goal | . | $n = 2c$ for some integer $c$ | $n-m$ is even | . | $m = 2d$ for some integer $d$ |   | . We also rewrite the goal in the same way. | Assumptions | Goal | . | $n = 2c$ for some integer $c$ | $n-m = 2e$ for some integer $e$ | . | $m = 2d$ for some integer $d$ |   | . To achieve our goal, we want to exhibit the desired $e$ using the assumptions at hand. To make progress, we import another “known fact” into the assumptions context: distribution of multiplication over subtraction. | Assumptions | Goal | . | $n = 2c$ for some integer $c$ | $n-m = 2e$ for some integer $e$ | . | $m = 2d$ for some integer $d$ |   | . | $u(v-w) = uv-uw$ for all integers $u,v,w$ |   | . Now we can an apply distribution with $u = 2, v = c, w = d$ to gain another statement and finish. | Assumptions | Goal | . | $n = 2c$ for some integer $c$ | $n-m = 2e$ for some integer $e$ | . | $m = 2d$ for some integer $d$ |   | . | $u(v-w) = uv-uw$ for all integers $u,v,w$ |   | . | $n - m = 2c - 2d = 2(c-d)$ |   | . | set $e = c-d$ |   | . | $n -m = 2e$ |   | . While we modeled this proof as a table, it is notationally simpler to represent deduction from assumption $A$ to goal $B$ (with some intermediate steps) vertically. And we write $A \\vdash B$ to indicate that we can prove the goal(s) $B$ given the assumption(s) $A$. ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/deduction/#deduction",
-    "relUrl": "/notes/first_order_logic/deduction/#deduction"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/deduction/#deduction",
+    "relUrl": "/notes/propositional_logic/deduction/#deduction"
   },"22": {
     "doc": "Propositions and proofs",
     "title": "Propositions and proofs",
     "content": " ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/deduction/",
-    "relUrl": "/notes/first_order_logic/deduction/"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/deduction/",
+    "relUrl": "/notes/propositional_logic/deduction/"
   },"23": {
     "doc": "Intro to Proofs",
     "title": "HNRS:  Transition to Advanced Mathematics",
@@ -191,17 +191,17 @@
     "url": "https://300.f22.matthewrobertballard.com/homework/",
     "relUrl": "/homework/"
   },"32": {
-    "doc": "First order logic",
+    "doc": "Propositional logic",
     "title": "Symbolic and semantic",
     "content": "Human reason follows some basic patterns. The truth of one statement is often connected to the truth of another statement. For example, let’s take the following example. Example. If it is cloudy outside, then I don’t need my sunglasses. To understand the content of this course, the first thing we need to do is disentangle our thought a bit. There are two closely related but distinct facets of this example. There is the truth of the statement. Is it actually cloudy outside or not? Do I actually need sunglasses or not? Whether or not someone actually needs their sunglasses probably depends on the person and the level of cloudiness. In focusing on the truth of a statement, we care about the semantics of the proposition. Distinctly, we can also view this statement as built up from basic “atoms” using well-defined rules. In our semantic analysis, we already have broken it down into two separate statements that can either be truth or false in principal: . $A$. It is cloudy outside . $B$. I don’t need my sunglasses . Our example statement is built up from $A$ and $B$ via a if-then construction. It then makes sense to denote it by $A \\Rightarrow B$. The fancy arrow $\\Rightarrow$ stands in for the if-then. Thus, symbolically we have $A$ and $B$ and $\\Rightarrow$ provides a way to connect them to make a new formal symbol \\(A \\Rightarrow B\\) . Symbolically, $A$ and $B$ have no infused meaning so why do we even consider this? . Because symbolic manipulation can be incredibly powerful. It can streamline human thought. It can be mechanized in a computer program. It can be converted in a game. For mathematicians, logical reasoning is especially important. When reasoning about intricate structures, it is incredibly easy to make a mistake. The history of mathematics is rich with such examples. To help minimize errors, mathematicians grounded their arguments in logical deduction and fostered a culture of rigorous proofs. Let’s look at a more mathematical example. Recall that \\(\\mathbb{N} = \\lbrace 0,1,2,\\ldots \\rbrace\\) is the set of natural numbers. A natural number $n$ is even if it can be written as $n = 2m$ for some other natural number $m$. A number is odd if is not even. Example. Let $n$ be a natural number. If $n$ is even, then $n+1$ is odd. t If we denote . $A$. $n$ is even. $B$. $n+1$ is odd. then symbolically we can represent the statement as before \\(A \\Rightarrow B\\) But semantically this if very different than our cloudy/sunglasses example above. We start by introducing the basic structure of logical argument. ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/intro/#symbolic-and-semantic",
-    "relUrl": "/notes/first_order_logic/intro/#symbolic-and-semantic"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/intro/#symbolic-and-semantic",
+    "relUrl": "/notes/propositional_logic/intro/#symbolic-and-semantic"
   },"33": {
-    "doc": "First order logic",
-    "title": "First order logic",
+    "doc": "Propositional logic",
+    "title": "Propositional logic",
     "content": " ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/intro/",
-    "relUrl": "/notes/first_order_logic/intro/"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/intro/",
+    "relUrl": "/notes/propositional_logic/intro/"
   },"34": {
     "doc": "Notes",
     "title": "Course Notes",
@@ -215,47 +215,47 @@
     "url": "https://300.f22.matthewrobertballard.com/notes/intro/",
     "relUrl": "/notes/intro/"
   },"36": {
-    "doc": "Interpretations",
+    "doc": "Truth tables",
     "title": "What is truth anyway?",
-    "content": " ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/models/#what-is-truth-anyway",
-    "relUrl": "/notes/first_order_logic/models/#what-is-truth-anyway"
+    "content": "Previously we have been performing purely symbolic moves to generate our proofs. How does this relate to a given mathematics proof or debate topic? . To motivate our rules we have often replaced our symbols $A,B,C,$… by actual statements, eg “the sun is out”. “The sun is out” can either be true or false – we just look outside. So at a very basic level this provides a way to assign either T or F to a propositional variable. We could of course willy-nilly assign T and F for each our propositional variables. But all of our connectives have familiar interpretation in the context of T/F values. | Not true better be false and vice-versa. So \\(\\neg T \\mapsto F \\ , \\ \\neg F \\mapsto T.\\) We can put this into a table: | . | $A$ | $\\neg A$ | . | $T$ | $F$ | . | $F$ | $T$ | . This expresses the values of $\\neg A$ given the values of $A$. | Suppose I know that $A \\to B$ and we know that is $A$ is $T$. It would make a lot sense to conclude that $B$ should also be assigned $T$. But if we allow ourselves to look at possible assignments it makes sense to assign T/F values to each expression using T/F and $\\to$. We can make another table where we list the values assigned to $A$ along the first column and the values assigned to $B$ in the first row. | . | $A$ | $B$ | $A \\to B$ | . | $T$ | $T$ | $T$ | . | $T$ | $F$ | $F$ | . | $F$ | $T$ | $T$ | . | $F$ | $F$ | $T$ | . One can read this as saying the implication is itself is true if either assumption is false or both the assumption and conclusion are true. | We also have a table for $\\land$ | . | $A$ | $B$ | $A \\land B$ | . | $T$ | $T$ | $T$ | . | $T$ | $F$ | $F$ | . | $F$ | $T$ | $F$ | . | $F$ | $F$ | $F$ | . which says that $A \\land B$ should only be true if both $A$ and $B$ are. | And we have a table for $\\lor$ | . | $A$ | $B$ | $A \\lor B$ | . | $T$ | $T$ | $T$ | . | $T$ | $F$ | $T$ | . | $F$ | $T$ | $T$ | . | $F$ | $F$ | $F$ | . which says $A \\lor B$ is false only when both $A$ and $B$ are. | We also want \\(\\top \\mapsto T \\\\ \\bot \\mapsto F\\) | . Using these rules, once we have a chosse of T/F, we can assign T/F to any propositional formula. Let’s look at a more complicated formula. Example. Let’s take the formula \\(\\neg A \\lor B \\to C \\land \\neg D\\) and the truth assignment \\(A, C \\mapsto T, \\ B, D \\mapsto F\\) . It convenient notation to “plug in” to the formula the values of $T$ and $F$. This gives \\(\\neg T \\lor F \\to T \\land \\neg F\\) Then use our rules above to simplify down to a single value. First the negation \\(F \\lor F \\to T \\land T\\) Then the $\\lor$ and $\\land$ \\(F \\to T\\) Finally for $\\to$ we reduce to $T$. Different assignments for $A,B,C,D$ can yield a different value for our formula. For example, if \\(B, C, D \\mapsto T, \\ A \\mapsto F\\) Then \\(\\neg A \\lor B \\to C \\land \\neg D \\mapsto F\\) . We can think of the possible truth value assignments to our collection of propositional variables as different possible universes. For example, if $A$ is standing for “the sun is out”, then $A \\mapsto T$ is saying we know the sun it out while $A \\mapsto F$ is saying the sun is not out. So any real-world or mathematical possibility can be found by listing out all the possible T/F assignments and the values taken by the formula given that assignment. Below is a table for our example . The truth table for our example. (Expand to view) | $A$ | $B$ | $C$ | $D$ | $\\neg A \\lor B \\to C \\land \\neg D$ | . | $T$ | $T$ | $T$ | $T$ | $F$ | . | $T$ | $T$ | $T$ | $F$ | $T$ | . | $T$ | $T$ | $F$ | $T$ | $F$ | . | $T$ | $F$ | $T$ | $T$ | $T$ | . | $F$ | $T$ | $T$ | $T$ | $F$ | . | $T$ | $T$ | $F$ | $F$ | $F$ | . | $T$ | $F$ | $T$ | $F$ | $T$ | . | $F$ | $T$ | $T$ | $F$ | $T$ | . | $T$ | $F$ | $F$ | $T$ | $T$ | . | $F$ | $T$ | $F$ | $T$ | $F$ | . | $F$ | $F$ | $T$ | $T$ | $F$ | . | $T$ | $F$ | $F$ | $F$ | $T$ | . | $F$ | $T$ | $F$ | $F$ | $F$ | . | $F$ | $F$ | $T$ | $F$ | $T$ | . | $F$ | $F$ | $F$ | $T$ | $F$ | . | $F$ | $F$ | $F$ | $F$ | $F$ | . ",
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/models/#what-is-truth-anyway",
+    "relUrl": "/notes/propositional_logic/models/#what-is-truth-anyway"
   },"37": {
-    "doc": "Interpretations",
-    "title": "Interpretations",
+    "doc": "Truth tables",
+    "title": "Truth tables",
     "content": " ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/models/",
-    "relUrl": "/notes/first_order_logic/models/"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/models/",
+    "relUrl": "/notes/propositional_logic/models/"
   },"38": {
     "doc": "Not",
     "title": "Negation",
-    "content": "In a debate or a courtroom, there are usually two opposing sides. One is arguing for $A$ and the other is arguing for not $A$. In first order logic, we introduce a symbol in the place of not: negation. It is denoted by $\\neg$. Given a formula $A$, then we can make a new one $\\neg A$. But what should be the rules of inference that mimic our arguments involving not? When have I established not of a statement? What does knowing the negation of a statement allow me to conclude? . One common pattern is to start an argument with $A$ and reason until you reach something that is clearly not true. This leads us to also introduce a symbol $\\bot$ which plays the role of false or “this is crazy”. Then we can formalize our pattern of argument via the following introduction rule for $\\neg$ . Given an argument assuming $A$ that leads to an absurdity, then we can conclude $\\neg A$. To eliminate $\\neg$ we have . If both $\\neg A$ and $A$ hold, then this is absurd. What are the rules for introducing and eliminating $\\bot$? We actually just saw the $\\bot$-introduction above – it doubles as the $\\neg$-elimination rule. The elimination rule is very general. Once we have established $\\bot$, then we are free to reach any conclusion. Let’s do another example to see how our rules of deduction interact. Example. Let’s establish \\(\\neg A \\land \\neg B \\to \\neg (A \\lor B)\\) . Recall this is shorthand for $ \\vdash (\\neg A \\land \\neg B \\to \\neg(A \\lor B))$. In words, this says we can establish $ \\neg A \\land \\neg B \\to \\neg (A \\lor B)$ with no assumptions. Proof. (Expand to view) If we want to establish a conclusion of the form $X \\to Y$ then we will want to introduce $\\to$. To do that we need to provide a deduction of the form $$ X \\vdash Y $$ In our case, we want to fill in the details for $$ \\neg A \\land \\neg B \\vdash \\neg(A \\lor B) $$ Now our goal is of the form $\\neg Z$ so we want to introduce $\\neg$. To do that, we need to supply a proof of $\\bot$ from $Z$. We have reduced to establishing $$ \\neg A \\land \\neg B, A \\lor B \\vdash \\bot $$ We could combine $A$ and $\\neg A$, if we had them, to got $\\bot$. The same holds for $B$ and $\\neg B$. ee can eliminate $\\neg A \\land \\neg B$ into either $\\neg A$ or $\\neg B$. For $A \\lor B$ elimination, we need proofs of desired conclusion, here $\\bot$, one with $A$ $$ \\neg A \\land \\neg B, A \\vdash \\bot $$ and one with $B$ $$ \\neg A \\land \\neg B, B \\vdash \\bot $$ The proofs of these are quicker. Putting everything together, we get the following natural deduction proof. In step${}^0$, we cancel the assumption $\\neg A \\land \\neg B$ to introduce $\\to$. In step${}^1$, we cancel the assumption $A \\lor B$ to introduce $\\neg (A \\lor B)$ since our conclusion is $\\bot$. Finally the steps${}^2$, we cancel $A$ and $B$ using or elimination. The numerical labels are convenient to keep track of the cancellations. Note that all assumptions are cancelled. &#9632; . Ok so what is the value of this result? It gives a method of proof that holds no matter how we interpret $A$ and $B$. For example, if we say $A$ is “the sun is out” and $B$ is “it is night”. Then we the proof above . ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/negation/#negation",
-    "relUrl": "/notes/first_order_logic/negation/#negation"
+    "content": "In a debate or a courtroom, there are usually two opposing sides. One is arguing for $A$ and the other is arguing for not $A$. In propositional logic, we introduce a symbol in the place of not: negation. It is denoted by $\\neg$. Given a formula $A$, then we can make a new one $\\neg A$. But what should be the rules of inference that mimic our arguments involving not? When have I established not of a statement? What does knowing the negation of a statement allow me to conclude? . One common pattern is to start an argument with $A$ and reason until you reach something that is clearly not true. This leads us to also introduce a symbol $\\bot$ which plays the role of false or “this is crazy”. Then we can formalize our pattern of argument via the following introduction rule for $\\neg$ . Given an argument assuming $A$ that leads to an absurdity, then we can conclude $\\neg A$. To eliminate $\\neg$ we have . If both $\\neg A$ and $A$ hold, then this is absurd. What are the rules for introducing and eliminating $\\bot$? We actually just saw the $\\bot$-introduction above – it doubles as the $\\neg$-elimination rule. The elimination rule is very general. Once we have established $\\bot$, then we are free to reach any conclusion. Let’s do another example to see how our rules of deduction interact. Example. Let’s establish \\(\\neg A \\land \\neg B \\to \\neg (A \\lor B)\\) . Recall this is shorthand for $ \\vdash (\\neg A \\land \\neg B \\to \\neg(A \\lor B))$. In words, this says we can establish $ \\neg A \\land \\neg B \\to \\neg (A \\lor B)$ with no assumptions. Proof. (Expand to view) If we want to establish a conclusion of the form $X \\to Y$ then we will want to introduce $\\to$. To do that we need to provide a deduction of the form $$ X \\vdash Y $$ In our case, we want to fill in the details for $$ \\neg A \\land \\neg B \\vdash \\neg(A \\lor B) $$ Now our goal is of the form $\\neg Z$ so we want to introduce $\\neg$. To do that, we need to supply a proof of $\\bot$ from $Z$. We have reduced to establishing $$ \\neg A \\land \\neg B, A \\lor B \\vdash \\bot $$ We could combine $A$ and $\\neg A$, if we had them, to got $\\bot$. The same holds for $B$ and $\\neg B$. ee can eliminate $\\neg A \\land \\neg B$ into either $\\neg A$ or $\\neg B$. For $A \\lor B$ elimination, we need proofs of desired conclusion, here $\\bot$, one with $A$ $$ \\neg A \\land \\neg B, A \\vdash \\bot $$ and one with $B$ $$ \\neg A \\land \\neg B, B \\vdash \\bot $$ The proofs of these are quicker. Putting everything together, we get the following natural deduction proof. In step${}^0$, we cancel the assumption $\\neg A \\land \\neg B$ to introduce $\\to$. In step${}^1$, we cancel the assumption $A \\lor B$ to introduce $\\neg (A \\lor B)$ since our conclusion is $\\bot$. Finally the steps${}^2$, we cancel $A$ and $B$ using or elimination. The numerical labels are convenient to keep track of the cancellations. Note that all assumptions are cancelled. &#9632; . Ok so what is the value of this result? It gives a method of proof that holds no matter how we interpret $A$ and $B$. For example, if we say $A$ is “it is hot out” and $B$ is “it is raining”, then we can interpret the above as saying “if I know that the either it is not hot out or it is not raining, then I can conclude that it is not both hot and sunny”. Each of formula that we can prove symbolically is an argument pattern that can be applied in any context. ",
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/negation/#negation",
+    "relUrl": "/notes/propositional_logic/negation/#negation"
   },"39": {
     "doc": "Not",
     "title": "Some conventions",
     "content": "Expressions like $\\neg \\neg A$ are pretty un-ambiguous and we declare that $\\neg$ binds most closely. So for example \\(\\neg A \\to B := (\\neg A) \\to B \\\\ \\neg C \\lor D:= (\\neg C) \\lor D\\) . ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/negation/#some-conventions",
-    "relUrl": "/notes/first_order_logic/negation/#some-conventions"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/negation/#some-conventions",
+    "relUrl": "/notes/propositional_logic/negation/#some-conventions"
   },"40": {
     "doc": "Not",
     "title": "Not",
     "content": " ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/negation/",
-    "relUrl": "/notes/first_order_logic/negation/"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/negation/",
+    "relUrl": "/notes/propositional_logic/negation/"
   },"41": {
     "doc": "Reductio ad absurdum",
     "title": "Proof by contradiction",
-    "content": "Suppose I can establish an absurdity by assuming the negation of something. What does this give us? Well, given $\\neg A \\vdash \\bot$, we can prove $\\neg \\neg A$. If we that the sun is not not up, that usually means that it is actually up, right? . More formally, we want to know about jutisfying \\(\\neg \\neg A \\vdash A\\) Can this be done using the rules so far? . Unfortunately, nothing in our rules so far will allow us establish this. Adding this rule to our existing system yields some very useful conclusions. For example, given $\\neg A \\vdash \\bot$, we already knew we could establish $\\vdash \\neg \\neg A$ but now we also have $\\vdash A$. The process of establishing $A$ by assuming $A$ doesn’t hold and arguing to a contradiction goes by the Reductio ad absurdum (RAA) or proof by contradiction. Another well-known conclusion is the Law of the Excluded Middle which is just \\(A \\lor \\neg A\\) In other words, no matter what $A$ is either $A$ holds or it is doesn’t. You might take a moment and think this an immutable law of reality. Our day-to-day experience definitely leads us to think this. But reality in general is more complicated. Think of Schrodinger’s cat. Is the cat alive or not alive in the box? What is the state of the unobserved wave function? . But in an idealized world proof by contradiction is a perfectly reasonable assumption. And mathematicians, for the most part, tend to idealize our world. Below is a proof the Law of Excluded Middle using proof by contradiction. ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/raa/#proof-by-contradiction",
-    "relUrl": "/notes/first_order_logic/raa/#proof-by-contradiction"
+    "content": "Suppose I can establish an absurdity by assuming the negation of something. What does this give us? Well, given $\\neg A \\vdash \\bot$, we can prove $\\neg \\neg A$. If we that the sun is not not up, that usually means that it is actually up, right? . More formally, we want to know about jutisfying \\(\\neg \\neg A \\vdash A\\) Can this be done using the rules so far? . Unfortunately, nothing in our rules so far will allow us establish this. Adding this rule to our existing system yields some very useful conclusions. For example, given $\\neg A \\vdash \\bot$, we already knew we could establish $\\vdash \\neg \\neg A$ but now we also have $\\vdash A$. The process of establishing $A$ by assuming $A$ doesn’t hold and arguing to a contradiction goes by the Reductio ad absurdum (RAA) or proof by contradiction. Another well-known conclusion is the Law of the Excluded Middle which is just \\(A \\lor \\neg A\\) In other words, no matter what $A$ is either $A$ holds or it is doesn’t. You might take a moment and think this an immutable law of reality. Our day-to-day experience definitely leads us to think this. But reality in general is more complicated. Think of Schrodinger’s cat. Is the cat alive or not alive in the box? What is the state of the unobserved wave function? . But in an idealized world proof by contradiction is a perfectly reasonable assumption. And mathematicians, for the most part, tend to idealize our world. Below is a proof the Law of Excluded Middle using proof by contradiction. Given an formula of the form $A \\to B$, the contrapositive is the formula \\(\\neg B \\to \\neg A\\) . Let’s justify \\(A \\to B \\vdash \\neg B \\to \\neg A\\) . Below is a natural deduction proof . If we substitute $\\neg B$ for $A$ and $\\neg A$ for $B$, we immediately have \\(\\neg B \\to \\neg A \\vdash (\\neg \\neg A) \\to (\\neg \\neg B)\\) With proof by contradiction, we get \\(\\neg B \\to \\neg A \\vdash A \\to B\\) . Establishing the contrapositive and deducing the original statement is uncommonly common pattern in mathematical argument. ",
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/raa/#proof-by-contradiction",
+    "relUrl": "/notes/propositional_logic/raa/#proof-by-contradiction"
   },"42": {
     "doc": "Reductio ad absurdum",
     "title": "Reductio ad absurdum",
     "content": " ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/first_order_logic/raa/",
-    "relUrl": "/notes/first_order_logic/raa/"
+    "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/raa/",
+    "relUrl": "/notes/propositional_logic/raa/"
   },"43": {
     "doc": "Me",
     "title": "Staff",
