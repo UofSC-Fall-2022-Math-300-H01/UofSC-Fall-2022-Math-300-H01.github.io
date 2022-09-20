@@ -222,653 +222,659 @@
     "relUrl": "/#hnrs--transition-to-advanced-mathematics"
   },"37": {
     "doc": "Intro to Proofs",
-    "title": "Week 4 Announcement",
-    "content": "Sep 9 &middot; 0 min read Be sure to bring a laptop to class this week if you have one. Take a look at . | the schedule for this week | and the homework for this week. | . Announcements . ",
-    "url": "https://300.f22.matthewrobertballard.com/",
-    "relUrl": "/"
-  },"38": {
-    "doc": "Intro to Proofs",
     "title": "Syllabus",
     "content": "The syllabus can be found at the syllabus tab. ",
     "url": "https://300.f22.matthewrobertballard.com/#syllabus",
     "relUrl": "/#syllabus"
-  },"39": {
+  },"38": {
     "doc": "Intro to Proofs",
     "title": "Calendar",
     "content": "At the calendar tab, you will find our topic schedule for each class along with the pre-reading, worksheets for that class, and due dates for assignments. ",
     "url": "https://300.f22.matthewrobertballard.com/#calendar",
     "relUrl": "/#calendar"
-  },"40": {
+  },"39": {
     "doc": "Intro to Proofs",
     "title": "Notes",
     "content": "The notes tab is where you can find the course reading. ",
     "url": "https://300.f22.matthewrobertballard.com/#notes",
     "relUrl": "/#notes"
-  },"41": {
+  },"40": {
     "doc": "Intro to Proofs",
     "title": "Homework",
     "content": "There are tabs for class homework. Homework is turned in weekly and in groups of 3-4. For more information, see the Syllabus. ",
     "url": "https://300.f22.matthewrobertballard.com/#homework",
     "relUrl": "/#homework"
-  },"42": {
+  },"41": {
     "doc": "Intro to Proofs",
     "title": "Me",
     "content": "If you are interested in a bit about who I am and what I do, check out the me tab or visit my website. ",
     "url": "https://300.f22.matthewrobertballard.com/#me",
     "relUrl": "/#me"
-  },"43": {
+  },"42": {
     "doc": "Intro to Proofs",
     "title": "Intro to Proofs",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/",
     "relUrl": "/"
-  },"44": {
+  },"43": {
     "doc": "Predicate logic",
     "title": "The next level of logic",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/predicate/intro/#the-next-level-of-logic",
     "relUrl": "/notes/predicate/intro/#the-next-level-of-logic"
-  },"45": {
+  },"44": {
     "doc": "Predicate logic",
     "title": "Predicate logic",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/predicate/intro/",
     "relUrl": "/notes/predicate/intro/"
-  },"46": {
+  },"45": {
     "doc": "Propositional logic",
     "title": "Symbolic and semantic",
     "content": "Human reason follows some basic patterns. The truth of one statement is often connected to the truth of another statement. For example, let’s take the following example. Example. If it is cloudy outside, then I don’t need my sunglasses. To understand the content of this course, the first thing we need to do is disentangle our thought a bit. There are two closely related but distinct facets of this example. There is the truth of the statement. Is it actually cloudy outside or not? Do I actually need sunglasses or not? Whether or not someone actually needs their sunglasses probably depends on the person and the level of cloudiness. In focusing on the truth of a statement, we care about the semantics of the proposition. Distinctly, we can also view this statement as built up from basic “atoms” using well-defined rules. In our semantic analysis, we already have broken it down into two separate statements that can either be truth or false in principal: . $A$. It is cloudy outside . $B$. I don’t need my sunglasses . Our example statement is built up from $A$ and $B$ via a if-then construction. It then makes sense to denote it by $A \\Rightarrow B$. The fancy arrow $\\Rightarrow$ stands in for the if-then. Thus, symbolically we have $A$ and $B$ and $\\Rightarrow$ provides a way to connect them to make a new formal symbol \\(A \\Rightarrow B\\) . Symbolically, $A$ and $B$ have no infused meaning so why do we even consider this? . Because symbolic manipulation can be incredibly powerful. It can streamline human thought. It can be mechanized in a computer program. It can be converted in a game. For mathematicians, logical reasoning is especially important. When reasoning about intricate structures, it is incredibly easy to make a mistake. The history of mathematics is rich with such examples. To help minimize errors, mathematicians grounded their arguments in logical deduction and fostered a culture of rigorous proofs. Let’s look at a more mathematical example. Recall that \\(\\mathbb{N} = \\lbrace 0,1,2,\\ldots \\rbrace\\) is the set of natural numbers. A natural number $n$ is even if it can be written as $n = 2m$ for some other natural number $m$. A number is odd if is not even. Example. Let $n$ be a natural number. If $n$ is even, then $n+1$ is odd. t If we denote . $A$. $n$ is even. $B$. $n+1$ is odd. then symbolically we can represent the statement as before \\(A \\Rightarrow B\\) But semantically this if very different than our cloudy/sunglasses example above. We start by introducing the basic structure of logical argument. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/intro/#symbolic-and-semantic",
     "relUrl": "/notes/propositional_logic/intro/#symbolic-and-semantic"
-  },"47": {
+  },"46": {
     "doc": "Propositional logic",
     "title": "Propositional logic",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/intro/",
     "relUrl": "/notes/propositional_logic/intro/"
-  },"48": {
+  },"47": {
     "doc": "Lean",
     "title": "Computers, mathematics, and proof",
     "content": "Each day brings greater involvement of computers in every facet of our day to day life. Mathematics is no different. Use of computers for computation in mathematics is now very well-established. For example, suppose we want to figure out if $2^{15485862}$ is divisible by $15485863$. Computing the power and then long dividing by hand would take a person awhile. (But there is a secret shortcut if you know some abstract algebra). But a well-written computer program can do it in milli-seconds. Another use, relevant to us directly, is the encoding mathematical ideas and proof in computer programs. Proofs become data which the computer can then check for correctness. Mathematicians and computer scientists have worked on this idea for decades but it is only relatively recently that computer checked proofs have reached a threshold of usability to see widespread adoption by mathematicians. We will use a tool called Lean to aid us in our investigations of mathematics and proof in particular. To begin with, we will see how to represent all of proposition logic in Lean. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/intro/#computers-mathematics-and-proof",
     "relUrl": "/notes/lean/intro/#computers-mathematics-and-proof"
-  },"49": {
+  },"48": {
     "doc": "Lean",
     "title": "Lean",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/intro/",
     "relUrl": "/notes/lean/intro/"
-  },"50": {
+  },"49": {
     "doc": "Notes",
     "title": "Course Notes",
     "content": "These will serve to provide the background ideas we will discuss in class. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/intro/#course-notes",
     "relUrl": "/notes/intro/#course-notes"
-  },"51": {
+  },"50": {
     "doc": "Notes",
     "title": "Notes",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/intro/",
     "relUrl": "/notes/intro/"
-  },"52": {
+  },"51": {
     "doc": "Interactive mode",
     "title": "Game mode",
     "content": "All the proofs we have seen so far have been a little hard for a person to read. As mentioned, Lean can serve as an interactive theorem prover. There is more interactive mode to write proofs called tactic mode. Tactic mode also allows us to structure our proofs in more human-readable form. To enter tactic mode, we add the keyword by after the := like so. example : False := by . In the Infoview pane, you will see something like . ▶ 1 goal ⊢ False . You can sorry this and notice that Goals accomplished 🎉 appears for the goal state; though Lean still gives a warning that we are using sorry. Inside tactic mode, you can use tactics. Each tactic is a built-in helper function for constructing a proof. Let’s look at some in an example step by step. Suppose we wanted to prove the formula (A → B ∧ C) → (A → B) ∧ (A → C). We start with . example : (A → B ∧ C) → (A → B) ∧ (A → C) := by . and the infoview provides the current state . A B C: Prop ⊢ (A → B ∧ C) → (A → B) ∧ (A → C) . We have assumptions A B C which are propositions and our goal is (A → B ∧ C) → (A → B) ∧ (A → C). Next we would normally start with fun (h : A → B ∧ C) =&gt;. In tactic mode, we can use the tactic intro. When our goal is of the for X → Y, intro h will introduce an assumption h : X and change our goal to Y. Here . example : (A → B ∧ C) → (A → B) ∧ (A → C) := by intro h . and the infoview provides the current state . A B C: Prop h : A → B ∧ C ⊢ (A → B) ∧ (A → C) . While Lean can infer the type of h from the goal, it is good practice to provide the type yourself. When you disagree with Lean, then its good chance to check your understanding. Next we want to make proofs of A → B and A → C. Previously, we would jam that into an And.intro making the resulting expression dense. The tactic have allows us to introduce new assumptions into the context if we provide proofs. example (A B C : Prop) : (A → B ∧ C) → (A → B) ∧ (A → C) := by intro (h : A → B ∧ C) have (f : A → B) := fun (a:A) =&gt; And.left (h a) have (g : A → C) := fun (a:A) =&gt; And.right (h a) . and the infoview provides the current state . A B C: Prop h : A → B ∧ C f: A → B g: A → C ⊢ (A → B) ∧ (A → C) . Now just need to combine f and g with And.intro. Since And.intro f g is exactly our goal. We use the exact tactic to tell Lean. example (A B C : Prop) : (A → B ∧ C) → (A → B) ∧ (A → C) := by intro (h : A → B ∧ C) have (f : A → B) := fun (a:A) =&gt; And.left (h a) have (g : A → C) := fun (a:A) =&gt; And.right (h a) exact And.intro f g . The infoview celebrates with us: Goals accomplished 🎉. Another useful tactic is called apply. It applies a function to the goal to get a new goal. For example, . example (a : A) (b : B) : A ∧ B := by apply And.intro . gives . case left a: A b: B ⊢ A case right a: A b: B ⊢ B . in the infoview. We can tackle each case. example (a : A) (b : B) : A ∧ B := by apply And.intro case left =&gt; exact a case right =&gt; exact b . To simplify proofs with or elimination, Lean has the tactic cases. example (h : A ∨ B) : B ∨ A := by cases h with | inl a =&gt; exact Or.inr a | inr b =&gt; exact Or.inl b . Each line labelled with | is a case of or elimination. inl tells Lean you are taking the left branch of the or while inr is the right. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/mode/#game-mode",
     "relUrl": "/notes/lean/mode/#game-mode"
-  },"53": {
+  },"52": {
     "doc": "Interactive mode",
     "title": "Interactive mode",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/mode/",
     "relUrl": "/notes/lean/mode/"
-  },"54": {
+  },"53": {
     "doc": "Truth tables",
     "title": "What is truth anyway?",
     "content": "Previously we have been performing purely symbolic moves to generate our proofs. How does this relate to a given mathematics proof or debate topic? . To motivate our rules we have often replaced our symbols $A,B,C,$… by actual statements, eg “the sun is out”. “The sun is out” can either be true or false – we just look outside. So at a very basic level this provides a way to assign either T or F to a propositional variable. We could of course willy-nilly assign T and F for each our propositional variables. But all of our connectives have familiar interpretation in the context of T/F values. | Not true better be false and vice-versa. So \\(\\neg T \\mapsto F \\ , \\ \\neg F \\mapsto T.\\) We can put this into a table: | . | $A$ | $\\neg A$ | . | $T$ | $F$ | . | $F$ | $T$ | . This expresses the values of $\\neg A$ given the values of $A$. | Suppose I know that $A \\to B$ and we know that is $A$ is $T$. It would make a lot sense to conclude that $B$ should also be assigned $T$. But if we allow ourselves to look at possible assignments it makes sense to assign T/F values to each expression using T/F and $\\to$. We can make another table where we list the values assigned to $A$ along the first column and the values assigned to $B$ in the first row. | . | $A$ | $B$ | $A \\to B$ | . | $T$ | $T$ | $T$ | . | $T$ | $F$ | $F$ | . | $F$ | $T$ | $T$ | . | $F$ | $F$ | $T$ | . One can read this as saying the implication is itself is true if either assumption is false or both the assumption and conclusion are true. | We also have a table for $\\land$ | . | $A$ | $B$ | $A \\land B$ | . | $T$ | $T$ | $T$ | . | $T$ | $F$ | $F$ | . | $F$ | $T$ | $F$ | . | $F$ | $F$ | $F$ | . which says that $A \\land B$ should only be true if both $A$ and $B$ are. | And we have a table for $\\lor$ | . | $A$ | $B$ | $A \\lor B$ | . | $T$ | $T$ | $T$ | . | $T$ | $F$ | $T$ | . | $F$ | $T$ | $T$ | . | $F$ | $F$ | $F$ | . which says $A \\lor B$ is false only when both $A$ and $B$ are. | We also want \\(\\top \\mapsto T \\\\ \\bot \\mapsto F\\) | . Using these rules, once we have a chosse of T/F, we can assign T/F to any propositional formula. Let’s look at a more complicated formula. Example. Let’s take the formula \\(\\neg A \\lor B \\to C \\land \\neg D\\) and the truth assignment \\(A, C \\mapsto T, \\ B, D \\mapsto F\\) . It convenient notation to “plug in” to the formula the values of $T$ and $F$. This gives \\(\\neg T \\lor F \\to T \\land \\neg F\\) Then use our rules above to simplify down to a single value. First the negation \\(F \\lor F \\to T \\land T\\) Then the $\\lor$ and $\\land$ \\(F \\to T\\) Finally for $\\to$ we reduce to $T$. Different assignments for $A,B,C,D$ can yield a different value for our formula. For example, if \\(B, C, D \\mapsto T, \\ A \\mapsto F\\) Then \\(\\neg A \\lor B \\to C \\land \\neg D \\mapsto F\\) . We can think of the possible truth value assignments to our collection of propositional variables as different possible universes. For example, if $A$ is standing for “the sun is out”, then $A \\mapsto T$ is saying we know the sun it out while $A \\mapsto F$ is saying the sun is not out. So any real-world or mathematical possibility can be found by listing out all the possible T/F assignments and the values taken by the formula given that assignment. Below is a table for our example . The truth table for our example. (Expand to view) | $A$ | $B$ | $C$ | $D$ | $\\neg A \\lor B \\to C \\land \\neg D$ | . | $T$ | $T$ | $T$ | $T$ | $F$ | . | $T$ | $T$ | $T$ | $F$ | $T$ | . | $T$ | $T$ | $F$ | $T$ | $F$ | . | $T$ | $F$ | $T$ | $T$ | $T$ | . | $F$ | $T$ | $T$ | $T$ | $F$ | . | $T$ | $T$ | $F$ | $F$ | $F$ | . | $T$ | $F$ | $T$ | $F$ | $T$ | . | $F$ | $T$ | $T$ | $F$ | $T$ | . | $T$ | $F$ | $F$ | $T$ | $T$ | . | $F$ | $T$ | $F$ | $T$ | $F$ | . | $F$ | $F$ | $T$ | $T$ | $F$ | . | $T$ | $F$ | $F$ | $F$ | $T$ | . | $F$ | $T$ | $F$ | $F$ | $F$ | . | $F$ | $F$ | $T$ | $F$ | $T$ | . | $F$ | $F$ | $F$ | $T$ | $F$ | . | $F$ | $F$ | $F$ | $F$ | $F$ | . ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/models/#what-is-truth-anyway",
     "relUrl": "/notes/propositional_logic/models/#what-is-truth-anyway"
-  },"55": {
+  },"54": {
     "doc": "Truth tables",
     "title": "Truth tables",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/models/",
     "relUrl": "/notes/propositional_logic/models/"
-  },"56": {
+  },"55": {
     "doc": "Not",
     "title": "Negation",
     "content": "In a debate or a courtroom, there are usually two opposing sides. One is arguing for $A$ and the other is arguing for not $A$. In propositional logic, we introduce a symbol in the place of not: negation. It is denoted by $\\neg$. Given a formula $A$, then we can make a new one $\\neg A$. But what should be the rules of inference that mimic our arguments involving not? When have I established not of a statement? What does knowing the negation of a statement allow me to conclude? . One common pattern is to start an argument with $A$ and reason until you reach something that is clearly not true. This leads us to also introduce a symbol $\\bot$ which plays the role of false or “this is crazy”. Then we can formalize our pattern of argument via the following introduction rule for $\\neg$ . Given an argument assuming $A$ that leads to an absurdity, then we can conclude $\\neg A$. To eliminate $\\neg$ we have . If both $\\neg A$ and $A$ hold, then this is absurd. What are the rules for introducing and eliminating $\\bot$? We actually just saw the $\\bot$-introduction above – it doubles as the $\\neg$-elimination rule. The elimination rule is very general. Once we have established $\\bot$, then we are free to reach any conclusion. Let’s do another example to see how our rules of deduction interact. Example. Let’s establish \\(\\neg A \\land \\neg B \\to \\neg (A \\lor B)\\) . Recall this is shorthand for $ \\vdash (\\neg A \\land \\neg B \\to \\neg(A \\lor B))$. In words, this says we can establish $ \\neg A \\land \\neg B \\to \\neg (A \\lor B)$ with no assumptions. Proof. (Expand to view) If we want to establish a conclusion of the form $X \\to Y$ then we will want to introduce $\\to$. To do that we need to provide a deduction of the form $$ X \\vdash Y $$ In our case, we want to fill in the details for $$ \\neg A \\land \\neg B \\vdash \\neg(A \\lor B) $$ Now our goal is of the form $\\neg Z$ so we want to introduce $\\neg$. To do that, we need to supply a proof of $\\bot$ from $Z$. We have reduced to establishing $$ \\neg A \\land \\neg B, A \\lor B \\vdash \\bot $$ We could combine $A$ and $\\neg A$, if we had them, to got $\\bot$. The same holds for $B$ and $\\neg B$. ee can eliminate $\\neg A \\land \\neg B$ into either $\\neg A$ or $\\neg B$. For $A \\lor B$ elimination, we need proofs of desired conclusion, here $\\bot$, one with $A$ $$ \\neg A \\land \\neg B, A \\vdash \\bot $$ and one with $B$ $$ \\neg A \\land \\neg B, B \\vdash \\bot $$ The proofs of these are quicker. Putting everything together, we get the following natural deduction proof. In step${}^0$, we cancel the assumption $\\neg A \\land \\neg B$ to introduce $\\to$. In step${}^1$, we cancel the assumption $A \\lor B$ to introduce $\\neg (A \\lor B)$ since our conclusion is $\\bot$. Finally the steps${}^2$, we cancel $A$ and $B$ using or elimination. The numerical labels are convenient to keep track of the cancellations. Note that all assumptions are cancelled. &#9632; . Ok so what is the value of this result? It gives a method of proof that holds no matter how we interpret $A$ and $B$. For example, if we say $A$ is “it is hot out” and $B$ is “it is raining”, then we can interpret the above as saying “if I know that the either it is not hot out or it is not raining, then I can conclude that it is not both hot and sunny”. Each of formula that we can prove symbolically is an argument pattern that can be applied in any context. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/negation/#negation",
     "relUrl": "/notes/propositional_logic/negation/#negation"
-  },"57": {
+  },"56": {
     "doc": "Not",
     "title": "Some conventions",
     "content": "Expressions like $\\neg \\neg A$ are pretty un-ambiguous and we declare that $\\neg$ binds most closely. So for example \\(\\neg A \\to B := (\\neg A) \\to B \\\\ \\neg C \\lor D:= (\\neg C) \\lor D\\) . ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/negation/#some-conventions",
     "relUrl": "/notes/propositional_logic/negation/#some-conventions"
-  },"58": {
+  },"57": {
     "doc": "Not",
     "title": "Not",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/negation/",
     "relUrl": "/notes/propositional_logic/negation/"
-  },"59": {
+  },"58": {
     "doc": "Negation and RAA",
     "title": "Negation",
     "content": "Let’s see how Lean understands negation. variable (A : Prop) #reduce ¬ A -- A → False . The command #reduce tells Lean to try to peel away notation and write things in a more basic form. So Lean-speak for not of a formula are functions that take proofs of A to proofs of False. With this in mind, $\\neg$-elimination is another instance of function application. example (A : Prop) (a : A) (n : ¬ A) : False := n a . If ¬ A means A → False, then negation introduction looks very similar to implication introduction. variable {A : Prop} theorem totallyProvenTheorem (a : A) : False := sorry example : ¬ A := totallyProvenTheorem a . Example. Let’s prove the formula (A → B) → (¬ B → ¬ A). variable (A B : Prop) example : (A → B) → (¬ B → ¬ A) := fun (f : A → B) =&gt; fun (h : ¬ B) =&gt; fun(a : A) =&gt; h (f a) . Tilting our heads to the side, we can read this as constructing a function which inputs . | A function f taking proofs of A to proofs of B | A function h taking proofs of B to proofs of False | A proof a of A | . From f a we get a proof of B. Applying h gives us a proof of False. Thus, our output is a proof of False. Since Lean views ¬ A as A → False, it accepts this construction. Repeatedly writing the fun =&gt; is a little tedious. Thankfully, Lean accepts notation more closely adhering to our sense of multivariate functions. variable (A B : Prop) example : (A → B) → (¬ B → ¬ A) := fun (f : A → B) (h : ¬ B) (a : A) =&gt; h (f a) . Recall that we can prove anything from False. In Lean, this is . variable (A : Prop) #check @False.elim -- False.elim : False → A . Appending @ forces Lean to make explicit some arguments it usually infers from the context. (And makes nicer messages to copy.) . ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/negation/#negation",
     "relUrl": "/notes/lean/negation/#negation"
-  },"60": {
+  },"59": {
     "doc": "Negation and RAA",
     "title": "Proof by contradiction",
     "content": "Recall that proof by contradiction (or reducito ad absurdum) allows us to conclude $A$ from $\\neg A \\vdash \\bot$. In Lean this is called Classical.byContradiction. variable (A : Prop) #check @Classical.byContradiction A -- Classical.byContradiction : (¬A → False) → A . We can eliminate double negation using this in Lean. variable (A : Prop) example : ¬ ¬ A → A := fun (h : ¬ ¬ A) =&gt; Classical.byContradiction (fun (n : ¬ A) =&gt; h n) . Note that fun (n : ¬ A) =&gt; h n is function that takes proofs of ¬ A to proofs of False. Applying byContradiction to this yields a proof of A as we want. We also have access to the law of the excluded middle built in. #check Classical.em -- Classical.em : ∀ (p : Prop), p ∨ ¬p . Example. Let’s prove the converse of the previous example (¬ B → ¬ A) → (A → B). example : (¬ B → ¬ A) → (A → B) := Or.elim (Classical.em B) (fun (b : B) (_ : A) =&gt; b) (fun (n : ¬ B) (a : A) =&gt; False.elim (h n a)) . Notice how Lean just “figured out” that we wanted to eliminate False into B. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/negation/#proof-by-contradiction",
     "relUrl": "/notes/lean/negation/#proof-by-contradiction"
-  },"61": {
+  },"60": {
     "doc": "Negation and RAA",
     "title": "Negation and RAA",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/negation/",
     "relUrl": "/notes/lean/negation/"
-  },"62": {
+  },"61": {
     "doc": "Proof vs truth",
     "title": "Proof vs truth",
     "content": "There are now two distinct categories of validity of a logical statement. | Can we find a (natural deduction) proof $X \\vdash Y$? | For any truth assignment that makes $X \\mapsto T$, must $Y \\mapsto T$? | . Finding a proof is an explicit set of moves to go from $X$ to $Y$ while truth assignments are somewhat external to $X$ and $Y$ but it turns out that the these two notion are closely related. As such we will given the second notion some notation, we will write $X \\models Y$ if for any truth assignment whenever $X \\mapsto T$ then $Y \\mapsto T$ also. We can check this via a truth table. Example. Let’s take \\(X = (A \\to B) \\land A \\ , \\ Y = B\\) . Then we have . | $A$ | $B$ | $(A \\to B) \\land A$ | . | $T$ | $T$ | $T$ | . | $T$ | $F$ | $F$ | . | $F$ | $T$ | $T$ | . | $F$ | $F$ | $F$ | . and can see that when $B$ is true so is $(A \\to B) \\land A$. So \\((A \\to B) \\land A \\models B\\) . But, we also know that \\((A \\to B) \\land A \\vdash B\\) from the proof . The proof above is very close to $\\to$ elimination. Indeed, that is the last set. It is easy to see that \\((A \\to B), A \\models B\\) . This means that whenever we apply $\\to$ elimination, we also have $\\models$ at that step in the proof. We come to our first real mathematical theorem. Theorem. Let $X_1,\\ldots,X_r$ and $Y_1,\\ldots,Y_s$ be collections of formulas in proposition logic. If we know that \\(X_1, \\ldots, X_r \\vdash Y_1, \\ldots, Y_s\\) then \\(X_1, \\ldots, X_r \\models Y_1, \\ldots, Y_s\\) . With the example above and the accompanying discussion, this might not be so surprising. A natural deduction proof is built from the elimination and introduction rules listed in the previous sections. One just needs to check that all of these rules don’t break $\\models$. At the moment, we content ourselves with this sketch of a proof. It should be enough to leaving your favoring the validity of the theorem but it falls short of a full mathematical proof. This theorem goes by the name of soundness of propositional logic. But, wait, there is more. Theorem. Let $X_1,\\ldots,X_r$ and $Y_1,\\ldots,Y_s$ be collections of formulas in proposition logic. If we know that \\(X_1, \\ldots, X_r \\models Y_1, \\ldots, Y_s\\) then \\(X_1, \\ldots, X_r \\vdash Y_1, \\ldots, Y_s\\) . In fact, you can somehow conjure a proof from the aether just from knowing whenever $X_1,\\ldots,X_r$ get assigned $T$, then so does $Y_1,\\ldots,Y_s$. This is usually called the completeness of propositional logic. A proof this result is beyond the scope of the course but it depends on using the law of the excluded middle (or reductio ad absurdum as they are equivalent. One approach is to break it into a giant collection of cases coming from $A \\lor \\neg A$ for each variable $A$.) . Theorems in mathematics ideally should provide deeper understanding and new tools to address old questions. One question we haven’t really broached but it immediate: how do I know when it is impossible to prove $Y$ with assumptions $X$? . Going straight from the defintion of a natural deduction proof, we would have to test all possible combinations of introduction/elimination rules. Not great. However, from soundness, if we can find a single truth assignment with $X \\mapsto T$ but $Y \\mapsto F$, then we can immediately conclude that $X \\not \\vdash Y$, ie that it is impossible to prove $Y$ from $X$. Example. Let’s show that we cannot prove $\\neg A \\land B \\to C$ from $A \\to B, \\neg C$. Let’s take $A \\mapsto F, B \\to T$, and $C \\to F$. Then \\(A \\to B, \\neg C \\mapsto T\\) while \\(\\neg A \\land B \\to C \\mapsto F\\) If we had $A \\to B, C \\vdash \\neg A \\land B \\to C$, then from the theorem above we could conclude that $A \\to B, C \\vdash \\neg A \\land B \\to C$. We have arrived now at an absurdity. Our calculation shows that $X \\not \\models Y$ but our argument shows that $X \\models Y$. We might be worried for second but then we remember the argument started out with an assumption: that we had a proof! The only way to avoid the absurdity for there not be a proof. In this example, you can see the basic moves in propositional logic being employed in a real-life mathematical example. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/pf_v_truth/",
     "relUrl": "/notes/propositional_logic/pf_v_truth/"
-  },"63": {
-    "doc": "Predicates, quanifiers, and equality",
+  },"62": {
+    "doc": "Predicates, quantifiers, and equality",
     "title": "Families of propositions",
-    "content": " ",
+    "content": "In propositional logic, we start with variables, like $A,B,$ or $C$ as have been our defaults. These are meant to represent statements which can either be true or false. But, it is very common for a statement to depend on additional data before we can check its truth or falsity. For example, “the dog has four feet”. Is this true or false? . Well, it depends on which dog we are talking about. We can think of “dog” as a variable which when filled with a concrete dog makes the statement a proposition. A common, more mathematical, class of examples are statements of about numbers. Recall that the natural numbers $\\mathbb{N}$ are $0,1,2,3,\\ldots$. Definition. Given two natural numbers $n$ and $m$, we say $n$ divides $m$ if there is some other natural number $c$ such that \\(m = cn\\) If $n$ divides $m$, we write $n \\mid m$. If $n$ does not divide $m$, we write $n \\nmid m$. For example, $2$ divides $4$ but $3$ does not divide $4$. The statement $m$ divides $n$ can be true or false depending on the values we have for $m$ and $n$. Another important possible property of a (natural) number. Definition. A natural number $p$ is prime if . | $p \\neq 1$, i.e. $p$ is not $1$, and | whenever there is another natural number $d$ with $d \\mid n$, then we must have $d = 1$ or $d = p$. | . So $13$ is prime but $15 = 3 \\cdot 5$ is not because it is divisible by $3$ and $5$. The truth of the statement, $n$ is prime, depends on the value of $n$ itself. In each of these examples, we have collection of variables, dogs or numbers, and statements whose truth are predicated on value of the variable. Predicate, or first order, logic is an extention of propositional logic meant to model these examples. The basic building blocks are called predicates and usually denoted like $A(x), B(x,z)$, or $C(x_1,\\ldots,x_n)$. Here $x$ and $A$ play different roles. The symbol $x$ is a stand in for our variables and $A$ is like a proposition but it depends on $x$ in general. One way to understand this semantically is as a function $A : \\alpha \\to \\text{Prop}$ where $x \\in \\alpha$ is our collection of variables and $A$ is a function which hands back a proposition whenever an choice from $\\alpha$ is inputed. If we have a regular old proposition, we can think of it a predicate that does not change as we vary the input. In this way, we can start to embed propositional logic in predicate logic. Continuing, we add it the familiar connectives. If $A(x,y)$ and $B(z)$ are predicates, then we make new formulas using . | implication: $A(x,y) \\to B(z)$ | negation: $\\neg B(z)$ | conjunction: $A(x,y) \\land B(z)$ | disjunction: $A(x,y) \\lor B(z)$ | bi-implication: $A(x,y) \\leftrightarrow B(z)$. | . Like with propositional logic, we can keep joining up formulas using these connectives to make bigger and bigger new formulas. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/predicate/predicate/#families-of-propositions",
     "relUrl": "/notes/predicate/predicate/#families-of-propositions"
+  },"63": {
+    "doc": "Predicates, quantifiers, and equality",
+    "title": "Quantifiers",
+    "content": "If we stopped here, our resulting logic would look like propositional logic with just a bigger set of propositions coming from varying the inputs. The richness of allowing propositions to depend on variables is that we can naturally ask about which values make a predicate true. Which dogs have four legs? All of them? Some of them? None of them? . To capture these sentiments, we introduce two new symbols into the game: . | the universal quantifier: $\\forall$ | the existential quantifier : $\\exists$ | . The universal quantifier is commonly called a “for all” and the existential quantifier a “there exists”. Before we gives the symbolic rules for writing our formulas in predicate logic using $\\forall$ and $\\exists$. Let’s look at quantifying statements in the realm of numbers. Definition. A number $n$ is even if $2 \\mid n$ and is odd if $2 \\nmid n$. Clearly any number is either divisible by $2$ or not. So the following is a true statement: for all $n$, $n$ is even or $n$ is odd. We could look at the statement: for all $n$, $n$ is prime. This would be false as we have seen there are values of $n$, like $15$, that are not prime numbers. The following is true: there exists some $n$ such that $n$ is prime. Since $n=2$ is prime, we have at least one $n$ which is prime. Using for all, there exists, and their negations, we can capture our questions about the quantity of values making the predicate formula true. Given a predicate of the form $B(y,z)$ we say that $y$ and $z$ are free variables. We can attach to each free variable at most one quantifier. For example, $\\exists y ~ \\forall z~ B(y,z)$ is a valid new formula as are $\\exists z~ B(y,z)$ or $\\forall y~ \\forall z~ B(y,z)$. Note that each quantifier comes with a variable label identifying the variable we are quantifying over. Once we quantify over a free variable, it becomes a bound variable. In general, given a formula in predicate logic with a free variable $x$ we can form a new formula by quantifying, using either $\\forall$ or $\\exists$, over it. ",
+    "url": "https://300.f22.matthewrobertballard.com/notes/predicate/predicate/#quantifiers",
+    "relUrl": "/notes/predicate/predicate/#quantifiers"
   },"64": {
-    "doc": "Predicates, quanifiers, and equality",
-    "title": "Predicates, quanifiers, and equality",
+    "doc": "Predicates, quantifiers, and equality",
+    "title": "Equality",
+    "content": "Using different inputs vs the same can lead to very different statements. For example, $n$ is odd or $n$ is even vs $n$ is odd or $m$ is even. We can universally quantify over $n$ in the first one and get a true statement but not so with the second. We see being able to reason about inputs being the same or different is desired when our truth statement depend on those inputs. We therefore introduce one more new symbol: $=$, equality. We can use $=$ to make new predicates like $x = y$ or $\\neg(x = y)$. Taking everything together we can make formula like: . | $\\forall x~ \\exists ~y (A(x,y) \\to (x = y))$ | $\\exists x~ \\exists y~ \\exists z~ (\\neg(x = y) \\land \\neg(y=z) \\land \\neg(x=z) \\land B(x,y,z))$ or | $\\forall x~ (A(x,y) \\to \\exists z~ B(z))$ | . For convenience of write, we often bundle together multiple variables bound under the same quantifer. For example, we write $\\exists x~ y$ when we mean $\\exists x~ \\exists y$. And we adopt standard conventions for implicit parentheses where $\\exists$ and $\\forall$ bind more closely that the previous binary quantifiers. ",
+    "url": "https://300.f22.matthewrobertballard.com/notes/predicate/predicate/#equality",
+    "relUrl": "/notes/predicate/predicate/#equality"
+  },"65": {
+    "doc": "Predicates, quantifiers, and equality",
+    "title": "Predicates, quantifiers, and equality",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/predicate/predicate/",
     "relUrl": "/notes/predicate/predicate/"
-  },"65": {
+  },"66": {
     "doc": "More rules and proofs",
     "title": "Conjunction",
     "content": "To build a proof of $A \\land B$, we needs proofs of $A$ and $B$. In Lean, this is accomplished by And.intro. example : (a : A) (b : B) : A ∧ B := And.intro a b . For elimination, we use And.left and And.right to extract proofs from A ∧ B. example : (h : A ∧ B) : A := And.left h example : (h : A ∧ B) : B := And.right h . ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/proofs/#conjunction",
     "relUrl": "/notes/lean/proofs/#conjunction"
-  },"66": {
+  },"67": {
     "doc": "More rules and proofs",
     "title": "Disjunction",
     "content": "For the or-introduction rules, we have . example : (a : A) : A ∨ B := Or.inl h example : (b : B) : A ∨ B := Or.inr h . For $\\lor$-elimination we need three things : . | $A \\lor B$ | A proof $A \\vdash C$ | A proof $B \\vdash C$ Let’s see what it looks like in Lean. | . #check Or.elim -- ∀ {a b c : Prop}, a ∨ b → (a → c) → (b → c) → c . So to use Or.elim we need three proofs: . | r : A ∨ B | p : A → C | q : B → C | . Let’s see a one direction of a commutativity of ∨ in Lean and at the same time get some sense of how to build up a proof in steps. Often Lean can “fill in” arguments from the context. You can ask it by placing a _. Let’s see what happens here. example (h : A ∨ B) : B ∨ A := Or.elim h _ _ . The infoview might look something like . don't know how to synthesize placeholder for argument 'right' context: A B : Prop h : A ∨ B ⊢ B → B ∨ A don't know how to synthesize placeholder for argument 'left' context: A B : Prop h : A ∨ B ⊢ A → B ∨ A . Lean is asking for our proofs of B → B ∨ A and A → B ∨ A. Remember that the are functions that turn any proof of B into a proof of B ∨ A and the same with A to B ∨ A. We can fill in the proof by providing such functions using or eliminations. example (h : A ∨ B) : B ∨ A := Or.elim h (fun (a:A) =&gt; Or.inr a) (fun (b:B) =&gt; Or.inl b) . ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/proofs/#disjunction",
     "relUrl": "/notes/lean/proofs/#disjunction"
-  },"67": {
+  },"68": {
     "doc": "More rules and proofs",
     "title": "Bi-implication",
     "content": "We can eliminate a bi-implication into two implications. example (h : A ↔ B) : A → B := Iff.mp example (h : A ↔ B) : B → A := Iff.mpr . Here mp stands for “Modus ponens” and mpr for the “reverse”. To introduce a bi-implication, we need proofs of A → B and B → A. #check Iff.intro -- ∀ {a b : Prop}, (a → b) → (b → a) → (a ↔ b) . ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/proofs/#bi-implication",
     "relUrl": "/notes/lean/proofs/#bi-implication"
-  },"68": {
+  },"69": {
     "doc": "More rules and proofs",
     "title": "Some examples",
     "content": "example (h : A → B ∧ C) : A → C := fun (a : A) =&gt; And.right (h a) . example : A ∧ B → A ∨ B := fun (p : A ∧ B) =&gt; Or.inl (And.left p) . example (h : A ∧ B) : B ∧ B := And.intro (And.right h) (And.right h) . ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/proofs/#some-examples",
     "relUrl": "/notes/lean/proofs/#some-examples"
-  },"69": {
+  },"70": {
     "doc": "More rules and proofs",
     "title": "More rules and proofs",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/proofs/",
     "relUrl": "/notes/lean/proofs/"
-  },"70": {
+  },"71": {
     "doc": "Reductio ad absurdum",
     "title": "Proof by contradiction",
     "content": "Suppose I can establish an absurdity by assuming the negation of something. What does this give us? Well, given $\\neg A \\vdash \\bot$, we can prove $\\neg \\neg A$. If we that the sun is not not up, that usually means that it is actually up, right? . More formally, we want to know about jutisfying \\(\\neg \\neg A \\vdash A\\) Can this be done using the rules so far? . Unfortunately, nothing in our rules so far will allow us establish this. Adding this rule to our existing system yields some very useful conclusions. For example, given $\\neg A \\vdash \\bot$, we already knew we could establish $\\vdash \\neg \\neg A$ but now we also have $\\vdash A$. The process of establishing $A$ by assuming $A$ doesn’t hold and arguing to a contradiction goes by the Reductio ad absurdum (RAA) or proof by contradiction. Another well-known conclusion is the Law of the Excluded Middle which is just \\(A \\lor \\neg A\\) In other words, no matter what $A$ is either $A$ holds or it is doesn’t. You might take a moment and think this an immutable law of reality. Our day-to-day experience definitely leads us to think this. But reality in general is more complicated. Think of Schrodinger’s cat. Is the cat alive or not alive in the box? What is the state of the unobserved wave function? . But in an idealized world proof by contradiction is a perfectly reasonable assumption. And mathematicians, for the most part, tend to idealize our world. Below is a proof the Law of Excluded Middle using proof by contradiction. Given an formula of the form $A \\to B$, the contrapositive is the formula \\(\\neg B \\to \\neg A\\) . Let’s justify \\(A \\to B \\vdash \\neg B \\to \\neg A\\) . Below is a natural deduction proof . If we substitute $\\neg B$ for $A$ and $\\neg A$ for $B$, we immediately have \\(\\neg B \\to \\neg A \\vdash (\\neg \\neg A) \\to (\\neg \\neg B)\\) With proof by contradiction, we get \\(\\neg B \\to \\neg A \\vdash A \\to B\\) . Establishing the contrapositive and deducing the original statement is uncommonly common pattern in mathematical argument. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/raa/#proof-by-contradiction",
     "relUrl": "/notes/propositional_logic/raa/#proof-by-contradiction"
-  },"71": {
+  },"72": {
     "doc": "Reductio ad absurdum",
     "title": "Reductio ad absurdum",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/propositional_logic/raa/",
     "relUrl": "/notes/propositional_logic/raa/"
-  },"72": {
-    "doc": "New rules of inference",
-    "title": "Introduction and elimination for $\\forall$",
-    "content": " ",
-    "url": "https://300.f22.matthewrobertballard.com/notes/predicate/rules/#introduction-and-elimination-for-forall",
-    "relUrl": "/notes/predicate/rules/#introduction-and-elimination-for-forall"
   },"73": {
     "doc": "New rules of inference",
-    "title": "Introduction and elimination for $\\exists$",
+    "title": "Introduction and elimination for $~\\forall$",
+    "content": "With a richer language of symbols comes more rules that mimic how we argue about truth. Here we extend the rules of inference from propositonal logic to include rules for quantifiers and equality. Introduction and elimination rules model how we either use formulas as assumptions or conclude then as goals in arguments. ",
+    "url": "https://300.f22.matthewrobertballard.com/notes/predicate/rules/#introduction-and-elimination-for-forall",
+    "relUrl": "/notes/predicate/rules/#introduction-and-elimination-for-forall"
+  },"74": {
+    "doc": "New rules of inference",
+    "title": "Introduction and elimination for $~\\exists$",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/predicate/rules/#introduction-and-elimination-for-exists",
     "relUrl": "/notes/predicate/rules/#introduction-and-elimination-for-exists"
-  },"74": {
+  },"75": {
     "doc": "New rules of inference",
-    "title": "Rules for \\(=\\)",
+    "title": "Rules for \\(~=\\)",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/predicate/rules/#rules-for-",
     "relUrl": "/notes/predicate/rules/#rules-for-"
-  },"75": {
+  },"76": {
     "doc": "New rules of inference",
     "title": "New rules of inference",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/predicate/rules/",
     "relUrl": "/notes/predicate/rules/"
-  },"76": {
+  },"77": {
     "doc": "Proofs and our first rules",
     "title": "Proofs",
     "content": "I said everything in Lean has a type. What is the type of a proof of a formula X : Prop? Let’s call the proof h. Well, its type is X itself. In addition to being a term in the (big) type of Prop, X is itself a type whose terms are proofs of X. We can of course declare we have a proof (without providing one) by saying . variable (A : Prop) variable (h : A) . But far more important for us is producing proofs! . Before we look at some basic examples, let’s introduce two new keywords for Lean: example and theorem. Both of these tell Lean that we want to produce a proof for a particular proposition. Here are some examples: . variable (A : Prop) example : A := sorry theorem bigOne : A := sorry . The main difference between example and theorem is that theorem expects a name whereas example does not. Each of these is telling Lean that I am going to provide a proof of A. This is why we end the statement with : A. It is informing Lean the type of the coming proof. The proof goes after :=. sorry is a special command that decreases the volume of the complaints from Lean that we did not actually provide a proof. If we remove sorry, we notice that the message is in red now: unexpected end of input. Messages like these from the infoview pane are meant to be helpful in constructing our proofs but they can be cryptic. A good rule is to step back a little and meditate on the error message in the context of the question. In general, we cannot produce a proof out of nothing except for situations. Even so, they are instructive to investigate. Suppose I want to establish $A \\vdash A$. This is trivial in propositional logic: I have $A$ so I have $A$. How does this look in Lean? . For examples/theorems, we can put the assumptions on the left-hand side of the semi-colon. example (h : A) : A := sorry . This reads as: “assume I have a proof h of A and I want to prove A”. A completed proof is: . example (h : A) : A := h . You are providing the assumed proof of A as the desired proof of A. A formula we can always prove is $\\top$. In Lean, this proposition is called True and $\\bot$ goes by False. The introduction rule for True comes in the form of a canonical proof called true of type True. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/rules/#proofs",
     "relUrl": "/notes/lean/rules/#proofs"
-  },"77": {
+  },"78": {
     "doc": "Proofs and our first rules",
     "title": "Implication elimination and introduction",
     "content": "Our rules of inference allowed us to build more complicated proofs from some basic steps. Each rule is encoded in Lean. Let’s start by looking at the introduction and elimination rules for implication. Say we have A B : Prop and we want to prove B from A → B and A. This is done as . variable (A B : Prop) example (f : A → B) (h : A) : B := f h . What is going on here? h is a proof of A as before and f is a proof of A → B. What is a proof of A → B? Well, one way to understand it is as a way to turn a proof of A into a proof B. We generally call such things functions. By placing f h, we are saying “feed h into f and use the output”. A more common way to say it is that we applied f to h. Application of f of h is how $\\to$-elimination is implemented in Lean. Next we look at $\\to$-introduction. For example, how would we finish the following? . variable (A : Prop) example : A → A := sorry . This difference between this example and . example (h : A) : A := h . is the exactly the elimination rule for implication. We want to make a function f : A → A which mimics our intitution that given a proof h : A that we can output that given proof to get a proof of A. The syntax for doing so is seen below in the completed example. variable (A : Prop) example : A → A := fun (h:A) =&gt; h . fun tells Lean that a function is coming (h : A) specifies the input (and its type). The arrow =&gt; separates the input from the output. Strictly speaking this is not the implication introduction rule but it plays an important part. variable {A B : Prop} theorem superProof (h : A) : B := sorry example : A → B := fun (h : A) =&gt; superProof h . We can treat the (nonexistent) proof of our theorem as a function. But you may have noticed the braces { A B : Prop }. When we declare (A : Prop), Lean adds it as an assumption to all examples/theorems in our file. So really superProof has the form . theorem {A B : Prop} superProof (h : A) : B := sorry . Using the parentheses (A B : Prop) tells Lean that I want A and B to also be (explicit) inputs to superProof. (When we saying variable to Lean, it really goes all out.) . Using the braces {A B : Prop} tells Lean “you figure out A and B” from the other information. Which is can do in the case of our example from the desired type is A → B. ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/rules/#implication-elimination-and-introduction",
     "relUrl": "/notes/lean/rules/#implication-elimination-and-introduction"
-  },"78": {
+  },"79": {
     "doc": "Proofs and our first rules",
     "title": "Proofs and our first rules",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/notes/lean/rules/",
     "relUrl": "/notes/lean/rules/"
-  },"79": {
+  },"80": {
     "doc": "Me",
     "title": "Staff",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/staff/#staff",
     "relUrl": "/staff/#staff"
-  },"80": {
+  },"81": {
     "doc": "Me",
     "title": "Instructor",
     "content": "Schedule an appointment . I am a Professor in the Department of Mathematics at the University of South Carolina. I have been teaching mathematics for almost two decades and have guided nearly 1000 students from all levels through math courses. A mindset focused on growth is essential for learning mathematics. Each day is a small step forward. When we turn around at the end of the course, only then, do we see how far we have truly traveled. For more of my pedagogical philosophy and experience, take a look at the teaching page. As an extension of teaching, I take pride in mentoring researchers at any stage. In my research, I study algebraic geometry and am particularly interested in questions arising from Homological Mirror Symmetry. Much of my current work focuses on derived categories and their relation to more classical questions. My research has been partially supported by the Simons Foundation and the National Science Foundation. It has also benefited from a membership at the Institute for Advanced Study, funding from UofSC, and the Southeastern Conference. For more information about me, see my CV. For a research summary and a list of my papers, take a look at my research page. ",
     "url": "https://300.f22.matthewrobertballard.com/staff/#instructor",
     "relUrl": "/staff/#instructor"
-  },"81": {
+  },"82": {
     "doc": "Me",
     "title": "Me",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/staff/",
     "relUrl": "/staff/"
-  },"82": {
+  },"83": {
     "doc": "Syllabus",
     "title": "Syllabus",
     "content": ". | Course Information . | Course Name and Number | Term | Meeting Time and Location | Instructor Information | Office Hours | Academic Bulletin Description | Full Course Description | Prerequisites | Learning Outcomes | Course Materials | . | Course Requirements . | Course Format | Course Communication | Technology | Minimal Technical Skills Needed | Technical Support | . | Course Assignments and Grading . | Homework | Quizzes | Presentations | Project | Evaluation and Grading Scale . | Assignment Weights | Grading Scale | . | Assignment Submission | Revisions | . | Academic Success . | Accessibility | Student Success Center | Writing Center | University Library Resources | Teams and Technology | Counseling Services | . | Course Policies and Procedures . | Attendance Policy and COVID Reporting | COVID Policies . | Questions You May Have | . | Academic Integrity | Plagiarism | Group Work | Class Conduct | Late Work/Make-up Policy | Incomplete Grades | Diversity and Inclusion | Title IX and Gendered Identity | Expectations of the Instructor | Copyright/Fair Use Statement | . | Tentative Schedule . | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 | Week 9 | Week 10 | Week 11 | Week 12 | Week 13 | Week 14 | Week 15 | Week 16 | . | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/",
     "relUrl": "/syllabus/"
-  },"83": {
+  },"84": {
     "doc": "Syllabus",
     "title": "Course Information",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#course-information",
     "relUrl": "/syllabus/#course-information"
-  },"84": {
+  },"85": {
     "doc": "Syllabus",
     "title": "Course Name and Number",
     "content": "HNRS: Transition to Advanced Mathematics – Math 300 . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#course-name-and-number",
     "relUrl": "/syllabus/#course-name-and-number"
-  },"85": {
+  },"86": {
     "doc": "Syllabus",
     "title": "Term",
     "content": "Fall 2022 . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#term",
     "relUrl": "/syllabus/#term"
-  },"86": {
+  },"87": {
     "doc": "Syllabus",
     "title": "Meeting Time and Location",
     "content": "Mondays, Wednesdays, and Fridays 8:30-9:20 AM in LeConte College Room 348 . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#meeting-time-and-location",
     "relUrl": "/syllabus/#meeting-time-and-location"
-  },"87": {
+  },"88": {
     "doc": "Syllabus",
     "title": "Instructor Information",
     "content": ". | Instructor Name and Preferred Title: Prof. Matthew (Matt) Ballard | Preferred pronouns: He/Him/His | Office : LeConte College Room 341 | E-mail: ballard@math.sc.edu | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#instructor-information",
     "relUrl": "/syllabus/#instructor-information"
-  },"88": {
+  },"89": {
     "doc": "Syllabus",
     "title": "Office Hours",
     "content": "Mondays 1-4 or by appointment . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#office-hours",
     "relUrl": "/syllabus/#office-hours"
-  },"89": {
+  },"90": {
     "doc": "Syllabus",
     "title": "Academic Bulletin Description",
     "content": "Rigor of mathematical thinking and proof writing via logic, sets, and functions. Intended to bridge the gap between lower-level (computational-based) and upper-level (proof-based) mathematics courses. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#academic-bulletin-description",
     "relUrl": "/syllabus/#academic-bulletin-description"
-  },"90": {
+  },"91": {
     "doc": "Syllabus",
     "title": "Full Course Description",
     "content": "Logical verification of a statement is a skill broadly employed, from Plato to Alexa. It is also the central framework of communication in mathematics. In this course, we train this skill in three distinct but complementary ways: . | Oral and written communication in the natural language of mathematical ideas and proofs. | Formal deduction in symbolic logic. | Interactive theorem proving in the proof assistant Lean. | . Using this language, we explore the fundamental mathematical concepts of . | sets | functions | relations | the natural numbers and induction. | . Finally, with our new skills, we tackle a more advanced mathematical topic. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#full-course-description",
     "relUrl": "/syllabus/#full-course-description"
-  },"91": {
+  },"92": {
     "doc": "Syllabus",
     "title": "Prerequisites",
     "content": "C or better in MATH 142, or consent of the Undergraduate Director . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#prerequisites",
     "relUrl": "/syllabus/#prerequisites"
-  },"92": {
+  },"93": {
     "doc": "Syllabus",
     "title": "Learning Outcomes",
     "content": "After successful completion of this course, you will be able to: . | Write clear, correct, and readable mathematical proofs. | Achieve facility with symbolic logic and formal deduction. | Use an interactive proof assistant. | Appreciate new mathematics ideas. | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#learning-outcomes",
     "relUrl": "/syllabus/#learning-outcomes"
-  },"93": {
+  },"94": {
     "doc": "Syllabus",
     "title": "Course Materials",
     "content": "The main resources for materials are the course website and the Microsoft Team for the course. Some supplemental resources: . | C. Newstead. An infinite descent into pure mathematics | J. Avigad, L. de Moura, S. Kong, and S. Ullrich. Theorem proving in Lean | A. Stefanowicz. Proofs and Mathematical Reasoning | . All course materials comply with copyright/fair use policies. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#course-materials",
     "relUrl": "/syllabus/#course-materials"
-  },"94": {
+  },"95": {
     "doc": "Syllabus",
     "title": "Course Requirements",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#course-requirements",
     "relUrl": "/syllabus/#course-requirements"
-  },"95": {
+  },"96": {
     "doc": "Syllabus",
     "title": "Course Format",
     "content": "To wholly and successfully engage with the course, you will need to be need to attend class, attempt lots of problems, and engage both with me and your fellow classmates. All course materials are will be made available online so regular Internet access is essential for successful completion of the course. Due to construction delays for the renovation of LeConte College, we will plan to meet virtually until September 7, at least. We will use Microsoft Teams. Links to the meeting will be provided in advance. We will return to face-to-face instruction when possible. It is expected that much of this material will be unfamiliar to you. (If not, more power to you.) The course is structured to guide every student to mastery in terms of conceptual understanding and computational fidelity by the end of the semester. Class time will be spent working in small groups and presenting solutions to problems. It is expected you will have consumed the relevant material ahead of each course. It is not expected you will be comfortable with the material. Class time is for learning through doing and working through your misunderstandings. There will be weekly quizzes to diagnose any problems. At the end of the class, a project will be due in place of a final exam. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#course-format",
     "relUrl": "/syllabus/#course-format"
-  },"96": {
+  },"97": {
     "doc": "Syllabus",
     "title": "Course Communication",
     "content": "I will be communicating with you regarding grades and assignments. If you need to get in touch with me, the best method is via Microsoft Team chat or email. Generally, I will reply within 24 hours and will provide feedback on assignments within one week. You may also post questions pertaining to the course in the Questions channel in the course team. These questions will be answered within 24 hours. I encourage all students to take a stab at answering any question. If you are having trouble with this course or its material, you should contact me via Microsoft Team chat or email to discuss the issues. Announcements will be posted to this course whenever necessary. If there is any other information I think is important, I will send it to your preferred university email address. It is your responsibility to ensure that your email account works properly in order to receive email. If you are unsure of your preferred email, check your account at myaccount.sc.edu. For more information on setting your preferred university email, please see the Knowledge Base Article How To Change Your Primary University Email Address. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#course-communication",
     "relUrl": "/syllabus/#course-communication"
-  },"97": {
+  },"98": {
     "doc": "Syllabus",
     "title": "Technology",
     "content": "To participate in learning activities and complete assignments, you will need: . | Access to a working computer that has a current operating system with updates installed with a modern web browser installed; . | Reliable Internet access and a USC email account; . | If you plan to submit handwritten assignments, a scanning device such as a smartphone with the Microsoft Office Lens app. | The main hub for this course is the Microsoft Teams team COTEAM-BALLARMR-MATH-300-H01-FALL-2022 run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email. | We will be using a interactive theorem prover called Lean as part of our learning. | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#technology",
     "relUrl": "/syllabus/#technology"
-  },"98": {
+  },"99": {
     "doc": "Syllabus",
     "title": "Minimal Technical Skills Needed",
     "content": "Minimal technical skills are needed in this course. All work in this course must be completed and submitted online. Therefore, you must have consistent and reliable access to a computer and the Internet. The minimal technical skills you have include the ability to: . | Organize and save electronic files; . | Check and use the Microsoft Teams site daily; . | Download and upload documents; . | Locate and enter information with a browser. | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#minimal-technical-skills-needed",
     "relUrl": "/syllabus/#minimal-technical-skills-needed"
-  },"99": {
+  },"100": {
     "doc": "Syllabus",
     "title": "Technical Support",
     "content": "If you have problems with your computer, technology, IT-related questions, support, including Microsoft Teams, please contact the Division of Information Technology (DoIT) Service Desk at (803) 777-1800 or submit an online request through the Self-Service Portal or visit the Carolina Tech Zone. The Service Desk is open Monday – Friday from 8:00 AM – 6:00 PM (Eastern Daylight Time). The Thomas Cooper Library at USC has computers for you to use in case you encounter computer issues/problems. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#technical-support",
     "relUrl": "/syllabus/#technical-support"
-  },"100": {
+  },"101": {
     "doc": "Syllabus",
     "title": "Course Assignments and Grading",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#course-assignments-and-grading",
     "relUrl": "/syllabus/#course-assignments-and-grading"
-  },"101": {
+  },"102": {
     "doc": "Syllabus",
     "title": "Homework",
     "content": "Homework will need to be completed in groups of 3-4 that will be randomly assigned each week. The assignments will be available in and must be returned through GitHub Classroom. All homework assignments are due by 11:59 pm (Eastern Time) on the day indicated on the course schedule. Homework will be graded for correctness. You will be allowed up to two revisions on each homework assignment. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#homework",
     "relUrl": "/syllabus/#homework"
-  },"102": {
+  },"103": {
     "doc": "Syllabus",
     "title": "Quizzes",
     "content": "Each course will end with a short quiz. The goal of the quiz is to diagnose any gaps in the understanding and make sure we all stay on the same page. Quizzes are graded for correctness. You will be allowed up to two revisions on each quiz. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#quizzes",
     "relUrl": "/syllabus/#quizzes"
-  },"103": {
+  },"104": {
     "doc": "Syllabus",
     "title": "Presentations",
     "content": "All students are expected to regularly present solutions to in-class work group problems. Your target should be to present one solution every two weeks. Presentations are graded simply for completion. If you attempt it, it counts. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#presentations",
     "relUrl": "/syllabus/#presentations"
-  },"104": {
+  },"105": {
     "doc": "Syllabus",
     "title": "Project",
     "content": "A list of project topics will be released on October 3. These can be done in groups of 1-4 of your own choosing. Projects are due by December 9 at 9:00 am (EST). ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#project",
     "relUrl": "/syllabus/#project"
-  },"105": {
+  },"106": {
     "doc": "Syllabus",
     "title": "Evaluation and Grading Scale",
     "content": "All grades will be posted on Teams. You are strongly encouraged to check you scores in Teams regularly. A final letter grade will be assigned based on the weighting below. Assignment Weights . | Component | Percent of total | . | Homework | 25% | . | Quizzes | 25% | . | Presentations | 25% | . | Project | 25% | . Grading Scale . | Final total intervals | Letter Grade | . | [90,100] | A | . | [85,90) | B+ | . | [80,85) | B | . | [75,80) | C+ | . | [70,75) | C | . | [65,70) | D+ | . | [60,65) | D | . | [0,60) | F | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#evaluation-and-grading-scale",
     "relUrl": "/syllabus/#evaluation-and-grading-scale"
-  },"106": {
+  },"107": {
     "doc": "Syllabus",
     "title": "Assignment Submission",
     "content": "All written assignments are required to be submitted through Teams. Unless otherwise specified in the problem, you will be able to enter text directly through Teams or upload a scan of handwritten work. If you choose to upload a scan, then . | the handwriting must be clear and legible – otherwise you will receive no credit . | you will need to use the Office 365 Lens app to scan and upload you work to your university OneDrive account before attaching to the assignment. No HEIC extensions are allowed. | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#assignment-submission",
     "relUrl": "/syllabus/#assignment-submission"
-  },"107": {
+  },"108": {
     "doc": "Syllabus",
     "title": "Revisions",
     "content": "All homework turned in on-time is eligible for revision at full credit. All quizzes taken on-time are eligible for revision at full credit. Each assignment can undergo at most two revisions. Revisions must be resubmitted within one week of receiving a marked assignment or revision. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#revisions",
     "relUrl": "/syllabus/#revisions"
-  },"108": {
+  },"109": {
     "doc": "Syllabus",
     "title": "Academic Success",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#academic-success",
     "relUrl": "/syllabus/#academic-success"
-  },"109": {
+  },"110": {
     "doc": "Syllabus",
     "title": "Accessibility",
     "content": "The Student Disability Resource Center (SDRC) empowers students to manage challenges and limitations imposed by disabilities. Students with disabilities are encouraged to contact me to discuss the logistics of any accommodations needed to fulfill course requirements (within the first week of the semester). In order to receive reasonable accommodations from me, you must be registered with the Student Disability Resource Center (1705 College Street Close-Hipp, Suite 102 Columbia, SC 29208, 803-777-6142). Any student with a documented disability should contact the SDRC to make arrangements for appropriate accommodations. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#accessibility",
     "relUrl": "/syllabus/#accessibility"
-  },"110": {
+  },"111": {
     "doc": "Syllabus",
     "title": "Student Success Center",
     "content": "In partnership with USC faculty, the Student Success Center (SSC) offers a number of programs to assist you in better understanding your course material and to aid you on your path to success. SSC programs are facilitated by professional staff, graduate students, and trained undergraduate peer leaders who have previously excelled in their courses. Resources available to you in this and other courses may include: . Peer Tutoring: You can make a one-on-one appointment with a Peer Tutor. Drop-in Tutoring and Online Tutoring may also be available for this course. Visit their website for a full schedule of times, locations, and courses. Peer Writing: Improve your college-level writing skills by bringing writing assignments from any of your classes to a Peer Writing Tutor. Similar to Tutoring, you can visit the website to make an appointment, and to view the full schedule of available drop-in hours and locations. Success Consultations: In Success Consultations, SSC staff assist you in developing study skills, setting goals, and connecting to a variety of campus resources. Throughout the semester, I may communicate with the SSC via Success Connect, an online referral system, regarding your progress in the course. If contacted by the SSC, please schedule a Success Consultation. Success Connect referrals are not punitive and any information shared by me is confidential and subject to FERPA regulations. SSC services are offered to all USC undergraduates at no additional cost. You are invited to call the Student Success Hotline at (803) 777-1000, visit SSC website, or stop by the SSC in the Thomas Cooper Library on the Mezzanine Level to check schedules and make appointments. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#student-success-center",
     "relUrl": "/syllabus/#student-success-center"
-  },"111": {
+  },"112": {
     "doc": "Syllabus",
     "title": "Writing Center",
     "content": "This course has many writing assignments. The University Writing Center is an important resource you should use! It’s open to help any USC student needing assistance with a writing project at any stage of development. The main Writing Center is in Byrnes 703. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#writing-center",
     "relUrl": "/syllabus/#writing-center"
-  },"112": {
+  },"113": {
     "doc": "Syllabus",
     "title": "University Library Resources",
     "content": "University Libraries has access to books, articles, subject specific resources, citation help, and more. If you are not sure where to start, please Ask a Librarian! Assistance is available at sc.edu/libraries/ask.  . Remember that if you use anything that is not your own writing or media (quotes from books, articles, interviews, websites, movies – everything) you must cite the source in MLA (or other appropriate and approved) format. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#university-library-resources",
     "relUrl": "/syllabus/#university-library-resources"
-  },"113": {
+  },"114": {
     "doc": "Syllabus",
     "title": "Teams and Technology",
     "content": "Teams and Technology. As a student in this course, you have access to support from the Division of Information Technology (DoIT) for Teams and computer issues. The service desk can be reached at 803-777-1800. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#teams-and-technology",
     "relUrl": "/syllabus/#teams-and-technology"
-  },"114": {
+  },"115": {
     "doc": "Syllabus",
     "title": "Counseling Services",
     "content": "The University offers counseling and crisis services as well as outreach services and self-help. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#counseling-services",
     "relUrl": "/syllabus/#counseling-services"
-  },"115": {
+  },"116": {
     "doc": "Syllabus",
     "title": "Course Policies and Procedures",
     "content": " ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#course-policies-and-procedures",
     "relUrl": "/syllabus/#course-policies-and-procedures"
-  },"116": {
+  },"117": {
     "doc": "Syllabus",
     "title": "Attendance Policy and COVID Reporting",
     "content": "You are expected to participate actively in each course. If you anticipate an excused absence, you need to contact me in advance. You should submit a request in writing (email is acceptable) stating the dates of the anticipated absence, explaining the reason for absence, providing supporting documentation as required above, and including any request for make-up work. You should submit this request no later than the end of the second week of regularly scheduled classes in a full fall or spring semester term and within twice the length of the drop/add period for any other term. If regularly attending class becomes difficult for any reason, please contact me to discuss the issue. In accordance with university policy, a grade penalty of 10% may be imposed if a student has unexcused absensces exceeding 5% of the total number of courses. For this course, that means missing TWO courses without excuse. All absences due to documented illness or quarantine will be excused, and no grade penalty will be assessed for missing classes for this reason. If you experience COVID-19 symptoms, please stay home, contact the COVID-19 Student Health Services (SHS) nurse line (803-576-8511), complete the COVID-19 Student Report Form and select the option allowing the Student Ombuds to contact your professors. When talking with the SHS nurse, be sure to ask for documentation of the consult as you will need this to document why you missed class. You will also use the COVID-19 Student Report Form if you have tested positive for COVID-19 or if you have been ordered to quarantine because of close contact with a person who was COVID-19 positive. In each of these situations you will be provided appropriate documentation that can be shared through the Student Report Form. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#attendance-policy-and-covid-reporting",
     "relUrl": "/syllabus/#attendance-policy-and-covid-reporting"
-  },"117": {
+  },"118": {
     "doc": "Syllabus",
     "title": "COVID Policies",
     "content": "UofSC no longer requires face coverings, including in the class. For more information on this semester’s COVID policies see the guidance from the Provost. I strongly encourage getting vaccinated. I encourage physical distancing. While not always possible, I will strive to keep everyone at least three feet apart, even when working in groups, which we will do regularly. If you feel uncomfortable with group work in my class, please come talk with me and I don’t mind letting you work independently at all. Questions You May Have . What if I get sick with COVID? Two things have to occur: Isolation: Students who have been diagnosed with COVID-19 are released from isolation when a medical professional has determined, based on the current CDC and DHEC guidelines, that they have recovered. Currently, these guidelines include being fever-free for at least 24 hours and at least 5 days from their first symptom or positive test if they are asymptomatic. If symptoms persist on the fifth day, then the isolation must be extended to 10 days. What is the attendance policy if I get COVID? In brief, I must provide make-up course work including content and assignments when students have excused absences which include (but are not limited to) being in quarantine or isolation, religious holidays, medical conditions related to pregnancy, and military duty. However, recorded classes and hybrid/online options are not required and should not be expected. All excused absences must have documentation. See syllabus for further attendance policies. How will the Dr. Ballard know if I am absent due to quarantine or isolation? COVID-19 related absences must be document through the Student Ombudsman.  Students who have been diagnosed with COVID-19 or have been exposed and require quarantining should complete the COVID-19 Student Report Form and instructors should request this form in order to excuse the absence.  . Can I inquire about classmates condition with COVID? Sadly, not with me. These are health issues and the information is protected by state and federal law. If an individual student has questions about whether they should quarantine or believe that they have been in close contact, have them reach out to the COVID Phone Bank (803-576-8511). Would we ever change to go online if too many people are sick? Only in the rare instance that 30% or more of students have documented excused absences may I take the course online. This is not to be expected and very complicated according to the current policies. What if Dr. Ballard gets sick with COVID? I have been fully vaccinated and breakthrough infection symptoms most often resemble the common cold. In the event of a breakthrough infection, I will enter the self-isolation period and the course will switch modality to synchronous online temporarily. In the rare circumstance I am unable to teach remotely, a substitute instructor will take over the course. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#covid-policies",
     "relUrl": "/syllabus/#covid-policies"
-  },"118": {
+  },"119": {
     "doc": "Syllabus",
     "title": "Academic Integrity",
     "content": "You are expected to practice the highest possible standards of academic integrity. Any deviation from this expectation will result in a minimum academic penalty of your failing the assignment, and will result in additional disciplinary measures. This includes improper citation of sources, using another student’s work, and any other form of academic misrepresentation. The first tenet of the Carolinian Creed is, “I will practice personal and academic integrity.” . Below are some websites for you to visit to learn more about University policies: . | Carolinian Creed . | Academic Responsibility . | Office of Student Conduct and Academic Integrity . | Information Security Policy and Standards . | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#academic-integrity",
     "relUrl": "/syllabus/#academic-integrity"
-  },"119": {
+  },"120": {
     "doc": "Syllabus",
     "title": "Plagiarism",
     "content": "Using the words or ideas of another as if they were one’s own is a serious form of academic dishonesty. If another person’s complete sentence, syntax, key words, or the specific or unique ideas and information are used, one must give that person credit through proper citation. You should in particular cite any resources, person, text, or otherwise, you used to assist in preparation of your work. Copying proofs or problem solutions is strictly forbidden. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#plagiarism",
     "relUrl": "/syllabus/#plagiarism"
-  },"120": {
+  },"121": {
     "doc": "Syllabus",
     "title": "Group Work",
     "content": "Group work should be performed in safe manner. Remote work will certainly form a larger component of a career going forward. You are encouraged to take advantage of Microsoft Teams video and chat abilities to aid in collaboration. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#group-work",
     "relUrl": "/syllabus/#group-work"
-  },"121": {
+  },"122": {
     "doc": "Syllabus",
     "title": "Class Conduct",
     "content": "Professionalism will be expected at all times, but most especially with your interactions online and in person. Because the university classroom is a place designed for the free exchange of ideas, we must show respect for one another in all circumstances. We will show respect for one another by exhibiting patience and courtesy in our exchanges. Appropriate language and restraint from verbal attacks upon those whose perspectives differ from your own is a minimum requirement. Courtesy and kindness is the norm for those who participate in the class. Mistakes are expected and natural. Mistakes are how learning happens. All students should recognize and respect the bravery of a student presenting a proof or solution. If you ever feel uncomfortable beyond the intellectual challenge of the course, please contact me. Teams is a way for you to share your ideas and learning with your colleagues in this class. We do this as colleagues in learning, and the online space is meant to be a safe and respectful environment for us to conduct these discussions. Some general netiquette rules: . | Treat one another with respect. It will be expected that we will not attack one another personally for holding different opinions. | Do not use all CAPITAL LETTERS in emails or discussion board postings. This is considered “shouting” and is seen as impolite or aggressive. | Begin emails with a proper salutation (Examples: Dr. Name; Ms. Name; Hello Professor Name; Good afternoon Mr. Name). Starting an email without a salutation or a simple “Hey” is not appropriate. | When sending an email, please include a detailed subject line. Additionally, make sure you reference the course number (Ex. ENGL 287) in the message and sign the mail with your name. | Use proper grammar, spelling, punctuation, and capitalization. Text messaging language is not acceptable. | Use good taste when communicating. Profanity should be avoided. | Re-Read, think, and edit your message before you click “Send/Submit/Post.” . | Please remember when posting to be respectful and courteous to your colleagues, and limit your communication to topics of this course and the assignments. | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#class-conduct",
     "relUrl": "/syllabus/#class-conduct"
-  },"122": {
+  },"123": {
     "doc": "Syllabus",
     "title": "Late Work/Make-up Policy",
     "content": "All assignments due by the deadline as posted on the course schedule. Late work is not accepted and not eligible for revision. Please plan accordingly, and complete these assignments in advance of their deadlines to ensure any unanticipated circumstances do not result in a missed assignment. User error does not qualify you for any kind of makeup or retake opportunity. Completing and submitting the assignments by the due date is the sole responsibility of you. If you fail to submit the assignment or test by the due date, then your score for that assignment will be recorded as “zero.” . You will be allowed to access the assignments an unlimited number of times until the due date/time. If you are concerned about missing a deadline, post your assignment the day before the deadline. Be Careful: The clock on your computer may be different than the clock in Teams. If the clock is different by one second, you will be locked out of the assignment. Plan accordingly. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#late-workmake-up-policy",
     "relUrl": "/syllabus/#late-workmake-up-policy"
-  },"123": {
+  },"124": {
     "doc": "Syllabus",
     "title": "Incomplete Grades",
     "content": "The grade of Incomplete will be granted only in accordance with university policy. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#incomplete-grades",
     "relUrl": "/syllabus/#incomplete-grades"
-  },"124": {
+  },"125": {
     "doc": "Syllabus",
     "title": "Diversity and Inclusion",
     "content": "The university is committed to a campus environment that is inclusive, safe, and respectful for all persons, and one that fully embraces the Carolinian Creed: “I will discourage bigotry, while striving to learn from differences in people, ideas and opinions.” Likewise, the Student Code of Conduct stresses, “The University of South Carolina strives to maintain an educational community that fosters the development of students who are ethical, civil and responsible persons.” . To that end, all course activities will be conducted in an atmosphere of friendly participation and interaction among colleagues, recognizing and appreciating the unique experiences, background, and point of view each student brings. You are expected at all times to apply the highest academic standards to this course and to treat others with dignity and respect. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#diversity-and-inclusion",
     "relUrl": "/syllabus/#diversity-and-inclusion"
-  },"125": {
+  },"126": {
     "doc": "Syllabus",
     "title": "Title IX and Gendered Identity",
     "content": "This course affirms equality and respect for all gendered identities and expressions. Please don’t hesitate to correct me regarding your preferred gender pronoun and/or name if different from what is indicated on the official class roster. Likewise, I am committed to nurturing an environment free from discrimination and harassment. Consistent with Title IX policy, please be aware that I as a responsible employee am obligated to report information that you provide to me about a situation involving sexual harassment or assault. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#title-ix-and-gendered-identity",
     "relUrl": "/syllabus/#title-ix-and-gendered-identity"
-  },"126": {
+  },"127": {
     "doc": "Syllabus",
     "title": "Expectations of the Instructor",
     "content": "I am expected to facilitate learning, answer questions appropriately, be fair and objective in grading, provide timely and useful feedback on assignments and treat you as I would like to be treated. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#expectations-of-the-instructor",
     "relUrl": "/syllabus/#expectations-of-the-instructor"
-  },"127": {
+  },"128": {
     "doc": "Syllabus",
     "title": "Copyright/Fair Use Statement",
     "content": "I will cite and/or reference any materials that I use in this course that I do not create. Anything that appears on this website is copyright © 2022 Matthew Ballard and is distributed by an MIT license. Course materials that do not appear on this website are copyright © 2022 Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion without express permission. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#copyrightfair-use-statement",
     "relUrl": "/syllabus/#copyrightfair-use-statement"
-  },"128": {
+  },"129": {
     "doc": "Syllabus",
     "title": "Tentative Schedule",
     "content": "This is the plan for the semester. But it is only a plan. The successful progression of each student is the most important guide to through the material. As such, you should expect revisions as we go. ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#tentative-schedule",
     "relUrl": "/syllabus/#tentative-schedule"
-  },"129": {
+  },"130": {
     "doc": "Syllabus",
     "title": "Week 1",
     "content": ". | 8/19 welcome and orientation | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-1",
     "relUrl": "/syllabus/#week-1"
-  },"130": {
+  },"131": {
     "doc": "Syllabus",
     "title": "Week 2",
     "content": ". | 8/22 a logical puzzle and a video game | 8/24 conjuction, disjunction, and implication | 8/26 false and proof by contradiction | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-2",
     "relUrl": "/syllabus/#week-2"
-  },"131": {
+  },"132": {
     "doc": "Syllabus",
     "title": "Week 3",
     "content": ". | 8/29 introduction to Lean | 8/31 propositional logic in Lean | 9/2 propositional logic in Lean 2 | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-3",
     "relUrl": "/syllabus/#week-3"
-  },"132": {
+  },"133": {
     "doc": "Syllabus",
     "title": "Week 4",
     "content": ". | 9/5 reductio ad absurdum | 9/7 truth and falsity | 9/9 the universal quantifier | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-4",
     "relUrl": "/syllabus/#week-4"
-  },"133": {
+  },"134": {
     "doc": "Syllabus",
     "title": "Week 5",
     "content": ". | 9/12 the existential quantfier | 9/14 equality | 9/16 semantics of first order logic | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-5",
     "relUrl": "/syllabus/#week-5"
-  },"134": {
+  },"135": {
     "doc": "Syllabus",
     "title": "Week 6",
     "content": ". | 9/19 predicates in Lean | 9/21 quantifiers in Lean | 9/23 quantifiers in Lean 2 | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-6",
     "relUrl": "/syllabus/#week-6"
-  },"135": {
+  },"136": {
     "doc": "Syllabus",
     "title": "Week 7",
     "content": ". | 9/26 sets | 9/28 operations on sets | 9/30 sets in Lean | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-7",
     "relUrl": "/syllabus/#week-7"
-  },"136": {
+  },"137": {
     "doc": "Syllabus",
     "title": "Week 8",
     "content": ". | 10/3 functions | 10/5 injections, surjections and bijections | 10/7 functions in Lean | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-8",
     "relUrl": "/syllabus/#week-8"
-  },"137": {
+  },"138": {
     "doc": "Syllabus",
     "title": "Week 9",
     "content": ". | 10/10 relations | 10/12 equivalence relation and partials orders | 10/14 fall break. | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-9",
     "relUrl": "/syllabus/#week-9"
-  },"138": {
+  },"139": {
     "doc": "Syllabus",
     "title": "Week 10",
     "content": ". | 10/17 relations in Lean | 10/19 Peano’s axioms | 10/21 weak induction | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-10",
     "relUrl": "/syllabus/#week-10"
-  },"139": {
+  },"140": {
     "doc": "Syllabus",
     "title": "Week 11",
     "content": ". | 10/24 strong induction | 10/26 the natural numbers in Lean | 10/28 induction in Lean | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-11",
     "relUrl": "/syllabus/#week-11"
-  },"140": {
+  },"141": {
     "doc": "Syllabus",
     "title": "Week 12",
     "content": ". | 10/31 induction in Lean 2 | 11/2 groups and multiplication tables | 11/4 the integers | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-12",
     "relUrl": "/syllabus/#week-12"
-  },"141": {
+  },"142": {
     "doc": "Syllabus",
     "title": "Week 13",
     "content": ". | 11/7 cyclic groups | 11/9 symmetric/permutation groups | 11/11 cycles and cycle notations | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-13",
     "relUrl": "/syllabus/#week-13"
-  },"142": {
+  },"143": {
     "doc": "Syllabus",
     "title": "Week 14",
     "content": ". | 11/14 abelian groups | 11/16 dihedral groups | 11/18 permutation representation of dihedrals groups | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-14",
     "relUrl": "/syllabus/#week-14"
-  },"143": {
+  },"144": {
     "doc": "Syllabus",
     "title": "Week 15",
     "content": ". | 11/21 presentations of dihedral groups | 11/23 thanksgiving break. | 11/25 thanksgiving break. | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-15",
     "relUrl": "/syllabus/#week-15"
-  },"144": {
+  },"145": {
     "doc": "Syllabus",
     "title": "Week 16",
     "content": ". | 11/28 monoids and free groups | 11/30 more on free groups | 12/2 the universal property of free groups | . ",
     "url": "https://300.f22.matthewrobertballard.com/syllabus/#week-16",
     "relUrl": "/syllabus/#week-16"
-  },"145": {
+  },"146": {
     "doc": "Useful formula",
     "title": "Useful formula",
     "content": "We delve much deeper into propositional (and other kinds of) logic. While we will talk about one more form of logic (first order or predicate logic), we want to get to using our new logical skills on mathematical questions. As such, let’s end the module on propositional logic with a list of useful and/or well-known provable formulas. Below $A,B,C$ are general formula. | \\(A \\land B \\leftrightarrow B \\land A\\) When we can exchange the placement of an operation taking two inputs (binary operation), then we say it is commutative. This is saying that $\\land$ is commutative (up to bi-implication). | $\\lor$ is commutative : \\(A \\lor B \\leftrightarrow B \\lor A\\) | \\((A \\land B) \\land C \\leftrightarrow A \\land (B \\land C)\\) When we have three arguments for a binary and consume them in different orders (apply it to 1 and 2 then the result to 3 vs apply it to 2 and 3 first then the result to 1 while keeping the order of the placements) without affecting the final output, then we say the operation is associative. So here $\\land$ is asssociative. | You can distribute $\\land$ over $\\lor$: \\(A \\land (B \\lor C) \\leftrightarrow (A \\land B) \\lor (A \\land C)\\) | You can also distribute $\\lor$ over $\\land$: \\(A \\lor (B \\land C) \\leftrightarrow (A \\lor B) \\land (A \\lor C)\\) | \\[(A \\to (B \\to C)) \\leftrightarrow (A \\land B \\to C)\\] | Transitivity of implication: \\((A \\to B) \\to ((B \\to C) \\to (A \\to C))\\) | \\[((A \\lor B) \\to C) \\leftrightarrow (A \\to C) \\lor (B \\to C)\\] | \\[\\neg (A \\lor B) \\leftrightarrow \\neg A \\land \\neg B\\] | \\(\\neg (A \\land B) \\leftrightarrow \\neg A \\lor \\neg B\\) | \\[\\neg (A \\to B) \\leftrightarrow A \\land \\neg B\\] | \\[\\neg A \\to (A \\to B)\\] | \\((\\neg A \\lor B) \\leftrightarrow (A \\to B)\\) | \\[\\neg(A \\leftrightarrow \\neg A)\\] | \\[(A \\to B) \\leftrightarrow (\\neg B \\to \\neg A)\\] | \\((A \\to (B \\lor C)) \\to ((A \\to B) \\lor (A \\to C))\\) | If $B \\leftrightarrow C$, then for any $A$ we have . | \\[A \\lor B \\leftrightarrow A \\lor C\\] | \\[A \\land B \\leftrightarrow A \\land C\\] | \\[A \\to B \\leftrightarrow A \\to C\\] | . | . Each of the above can provide a useful logical shortcut when in the midst of a mathematical argument. ",
