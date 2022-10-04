@@ -145,7 +145,7 @@
   },"24": {
     "doc": "Schedule",
     "title": "Predicate logic",
-    "content": "Sep 23 Predicates, quantifiers, and equality Pre-reading Sep 26 New rules of inference Pre-reading HW 5 due Sep 28 Models in predicate logic Pre-reading Oct 3 Examples derivations Pre-reading Oct 5 Predicate logic in Lean Pre-reading HW 6 due ",
+    "content": "Sep 23 Predicates, quantifiers, and equality Pre-reading Sep 26 New rules of inference Pre-reading HW 5 due Sep 28 Models in predicate logic Pre-reading Oct 3 Examples derivations Pre-reading Oct 5 Predicate logic in Lean Pre-reading HW 6 due Oct 7 Examples in Lean Pre-reading ",
     "url": "https://300.f22.matthewrobertballard.com/calendar/#predicate-logic",
     "relUrl": "/calendar/#predicate-logic"
   },"25": {
